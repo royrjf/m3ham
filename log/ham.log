@@ -1,43 +1,24 @@
-05/04/2022 01:01:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 01:11:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 01:21:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 01:31:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 01:41:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 01:51:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 02:01:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 02:11:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 02:21:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 02:31:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 02:41:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 02:51:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 03:01:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 03:11:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 03:21:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 03:31:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 03:41:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 03:51:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 04:01:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 04:11:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 04:21:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 04:31:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 04:41:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 04:51:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 05:01:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 05:11:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 05:21:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 05:31:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 05:41:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 05:51:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 06:01:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 06:11:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 06:21:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 06:31:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 06:41:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 06:51:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 07:01:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 07:11:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 07:21:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 07:31:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 07:41:57 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 10:46:31 PM serv.py[line:49]INFO - serv heatbeat
-05/04/2022 10:56:31 PM serv.py[line:49]INFO - serv heatbeat
+09/09/2022 09:56:45 AM daemon.py[line:45]INFO - hello
+09/09/2022 09:56:45 AM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+09/09/2022 09:56:45 AM rcomm.py[line:72]INFO - ruijunfeng-PC
+09/09/2022 09:56:45 AM rcomm.py[line:74]INFO - hello m3
+09/09/2022 09:56:45 AM rcomm.py[line:51]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1FIK-if00-port0
+09/09/2022 09:56:46 AM rcomm.py[line:111]DEBUG - dev: Y opened
+09/09/2022 09:56:46 AM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+09/09/2022 09:56:46 AM rcomm.py[line:218]DEBUG - flush Y
+09/09/2022 09:56:46 AM daemon.py[line:93]INFO - gui msg: {'req': {'device': 'd', 'cabinet': '1', 'slots': '101,100', 'command': 'gravity'}}
+09/09/2022 09:56:46 AM daemon.py[line:97]ERROR - failed to process json: 'Daemon' object has no attribute 'process_device_d'
+09/09/2022 09:56:46 AM daemon.py[line:740]INFO - b'lg\x06R'
+09/09/2022 09:56:46 AM rcomm.py[line:218]DEBUG - flush Y
+09/09/2022 09:56:47 AM daemon.py[line:749]ERROR - no ack
+09/09/2022 09:56:47 AM daemon.py[line:740]INFO - b'lg\x06R'
+09/09/2022 09:56:47 AM rcomm.py[line:218]DEBUG - flush Y
+09/09/2022 09:56:48 AM daemon.py[line:749]ERROR - no ack
+09/09/2022 09:56:48 AM daemon.py[line:740]INFO - b'lg\x06R'
+09/09/2022 09:56:48 AM rcomm.py[line:218]DEBUG - flush Y
+09/09/2022 09:56:48 AM daemon.py[line:749]ERROR - no ack
+09/09/2022 09:56:48 AM daemon.py[line:77]INFO - hello beans_control
+09/09/2022 09:56:50 AM daemon.py[line:93]INFO - gui msg: {'req': {'device': 'd', 'cabinet': '1', 'slots': '101,100', 'command': 'gravity'}}
+09/09/2022 09:56:50 AM daemon.py[line:97]ERROR - failed to process json: 'Daemon' object has no attribute 'process_device_d'
+09/09/2022 09:56:51 AM daemon.py[line:93]INFO - gui msg: {'req': {'device': 'd', 'cabinet': '1', 'slots': '101,100', 'command': 'gravity'}}
+09/09/2022 09:56:51 AM daemon.py[line:97]ERROR - failed to process json: 'Daemon' object has no attribute 'process_device_d'

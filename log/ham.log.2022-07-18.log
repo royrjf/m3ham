@@ -1,0 +1,1858 @@
+07/18/2022 09:21:44 AM daemon.py[line:44]INFO - hello
+07/18/2022 09:21:44 AM daemon.py[line:45]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+07/18/2022 09:21:45 AM rcomm.py[line:72]INFO - ruijunfeng-PC
+07/18/2022 09:21:45 AM rcomm.py[line:74]INFO - hello m3
+07/18/2022 09:21:45 AM rcomm.py[line:51]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1IJL-if00-port0
+07/18/2022 09:21:46 AM rcomm.py[line:111]DEBUG - dev: Y opened
+07/18/2022 09:21:46 AM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+07/18/2022 09:21:46 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:46 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:21:46 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:47 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:47 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:47 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:47 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:48 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:48 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:21:48 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:49 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:49 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:49 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:49 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:50 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:50 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:21:50 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:50 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:50 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:51 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:51 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:51 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:51 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:21:51 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:52 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:52 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:52 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:52 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:53 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:53 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:21:53 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:54 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:54 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:54 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:54 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:55 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:55 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:21:55 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:55 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:55 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:56 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:56 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:56 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:57 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:21:57 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:57 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:57 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:58 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:58 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:58 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:58 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:21:58 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:59 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:59 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:21:59 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:21:59 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:00 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:00 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:00 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:01 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:01 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:01 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:01 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:02 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:02 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:02 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:02 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:02 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:03 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:03 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:03 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:03 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:03 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:04 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:04 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:04 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:04 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:05 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:05 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:05 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:06 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:06 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:06 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:06 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:07 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:07 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:07 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:07 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:07 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:08 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:08 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:08 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:09 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:09 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:09 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:09 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:10 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:10 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:10 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:10 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:10 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:11 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:11 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:11 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:11 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:12 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:12 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:12 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:13 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:13 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:13 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:13 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:14 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:14 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:14 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:14 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:14 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:15 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:15 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:15 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:15 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:15 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:16 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:16 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:16 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:16 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:17 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:17 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:17 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:18 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:18 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:18 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:18 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:19 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:19 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:19 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:19 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:19 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:20 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:20 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:20 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:21 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:21 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:21 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:21 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:22 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:22 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:22 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:22 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:22 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:23 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:23 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:23 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:23 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:24 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:24 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:24 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:24 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:25 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:25 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:25 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:26 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:26 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:26 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:26 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:26 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:27 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:27 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:27 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:27 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:27 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:28 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:28 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:28 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:28 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:29 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:29 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:29 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:30 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:30 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:30 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:30 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:31 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:31 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:31 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:31 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:31 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:32 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:32 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:32 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:33 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:33 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:33 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:33 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:34 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:34 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:34 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:34 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:34 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:35 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:35 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:35 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:35 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:36 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:36 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:36 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:37 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:37 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:37 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:37 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:38 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:38 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:38 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:38 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:38 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:39 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:39 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:39 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:39 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:39 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:40 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:40 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:40 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:40 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:41 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:41 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:41 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:42 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:42 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:42 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:42 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:43 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:43 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:43 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:43 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:43 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:44 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:44 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:44 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:45 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:45 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:45 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:45 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:46 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:46 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:46 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:46 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:46 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:47 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:47 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:47 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:47 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:48 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:48 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:48 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:49 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:49 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:49 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:49 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:50 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:50 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:50 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:50 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:50 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:51 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:51 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:51 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:52 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:52 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:52 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:52 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:53 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:53 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:53 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:53 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:53 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:54 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:54 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:54 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:54 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:55 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:55 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:55 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:55 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:55 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:56 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:56 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:57 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:57 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:57 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:57 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:57 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:58 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:58 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:58 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:58 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:22:58 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:59 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:59 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:22:59 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:22:59 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:00 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:00 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:00 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:01 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:01 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:01 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:01 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:02 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:02 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:02 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:02 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:02 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:03 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:03 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:03 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:04 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:04 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:04 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:04 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:05 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:05 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:05 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:05 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:05 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:06 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:06 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:06 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:06 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:07 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:07 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:07 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:08 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:08 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:08 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:08 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:09 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:09 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:09 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:09 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:09 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:10 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:10 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:10 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:10 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:10 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:11 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:11 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:11 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:11 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:12 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:12 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:12 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:13 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:13 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:13 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:13 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:14 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:14 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:14 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:14 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:14 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:15 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:15 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:15 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:16 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:16 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:16 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:16 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:17 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:17 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:17 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:17 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:17 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:18 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:18 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:18 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:18 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:19 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:19 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:19 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:20 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:20 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:20 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:20 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:21 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:21 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:21 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:21 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:21 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:22 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:22 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:22 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:22 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:22 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:23 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:23 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:23 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:23 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:24 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:24 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:24 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:25 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:25 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:25 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:25 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:26 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:26 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:26 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:26 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:26 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:27 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:27 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:27 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:28 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:28 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:28 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:28 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:29 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:29 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:29 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:29 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:29 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:30 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:30 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:30 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:30 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:31 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:31 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:31 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:32 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:32 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:32 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:32 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:33 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:33 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:33 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:33 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:33 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:34 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:34 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:34 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:35 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:35 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:35 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:35 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:36 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:36 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:36 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:36 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:36 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:37 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:37 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:37 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:37 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:38 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:38 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:38 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:38 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:38 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:39 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:39 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:39 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:40 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:40 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:40 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:40 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:41 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:41 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:41 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:41 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:41 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:42 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:42 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:42 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:42 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:43 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:43 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:43 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:44 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:44 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:44 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:44 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:45 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:45 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:45 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:45 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:45 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:46 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:46 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:46 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:47 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:47 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:47 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:47 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:48 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:48 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:48 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:48 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:48 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:49 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:49 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:49 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:49 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:50 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:50 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:50 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:51 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:51 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:51 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:51 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:52 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:52 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:52 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:52 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:52 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:53 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:53 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:53 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:53 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:53 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:54 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:54 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:54 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:54 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:55 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:55 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:55 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:56 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:56 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:56 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:56 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:57 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:57 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:57 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:57 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:57 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:58 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:58 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:58 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:59 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:23:59 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:23:59 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:23:59 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:00 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:00 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:00 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:00 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:00 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:01 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:01 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:01 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:01 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:02 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:02 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:02 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:03 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:03 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:03 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:03 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:04 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:04 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:04 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:04 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:04 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:05 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:05 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:05 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:05 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:05 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:06 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:06 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:06 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:06 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:07 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:07 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:07 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:08 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:08 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:08 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:08 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:09 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:09 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:09 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:09 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:09 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:10 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:10 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:10 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:11 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:11 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:11 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:11 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:12 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:12 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:12 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:12 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:12 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:13 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:13 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:13 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:13 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:14 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:14 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:14 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:15 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:15 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:15 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:15 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:16 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:16 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:16 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:16 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:16 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:17 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:17 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:17 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:17 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:17 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:18 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:18 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:18 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:18 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:19 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:19 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:19 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:20 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:20 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:20 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:20 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:21 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:21 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:21 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:21 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:21 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:22 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:22 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:22 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:23 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:23 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:23 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:23 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:24 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:24 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:24 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:24 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:24 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:25 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:25 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:25 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:25 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:26 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:26 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:26 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:27 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:27 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:27 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:27 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:28 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:28 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:28 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:28 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:28 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:29 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:29 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:29 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:29 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:29 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:30 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:30 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:30 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:30 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:31 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:31 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:31 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:32 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:32 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:32 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:32 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:33 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:33 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:33 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:34 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:34 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:34 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:34 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:35 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:35 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:35 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:35 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:35 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:36 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:36 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:36 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:36 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:36 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:37 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:37 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:37 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:37 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:38 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:38 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:38 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:39 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:39 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:39 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:39 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:40 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:40 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:40 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:40 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:40 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:41 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:41 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:41 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:42 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:42 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:42 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:42 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:43 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:43 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:43 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:43 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:43 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:44 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:44 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:44 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:44 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:45 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:45 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:45 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:45 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:45 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:46 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:46 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:47 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:47 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:47 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:47 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:47 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:48 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:48 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:48 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:48 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:48 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:49 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:49 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:49 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:49 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:50 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:50 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:50 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:51 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:51 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:51 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:51 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:52 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:52 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:52 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:52 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:52 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:53 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:53 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:53 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:54 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:54 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:54 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:54 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:55 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:55 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:55 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:55 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:55 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:56 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:56 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:56 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:56 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:57 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:57 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:57 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:57 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:57 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:58 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:58 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:58 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:59 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:24:59 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:24:59 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:24:59 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:00 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:00 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:00 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:00 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:00 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:01 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:01 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:01 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:01 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:02 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:02 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:02 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:03 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:03 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:03 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:03 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:04 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:04 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:04 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:04 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:04 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:05 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:05 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:05 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:06 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:06 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:06 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:06 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:07 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:07 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:07 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:07 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:07 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:08 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:08 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:08 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:08 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:09 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:09 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:09 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:09 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:09 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:10 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:10 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:10 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:11 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:11 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:11 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:11 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:12 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:12 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:12 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:12 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:12 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:13 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:13 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:13 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:13 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:14 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:14 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:14 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:15 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:15 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:15 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:15 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:16 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:16 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:16 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:16 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:16 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:17 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:17 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:17 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:18 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:18 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:18 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:18 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:19 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:19 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:19 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:19 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:19 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:20 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:20 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:20 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:20 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:21 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:21 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:21 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:21 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:21 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:22 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:22 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:22 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:23 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:23 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:23 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:23 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:24 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:24 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:24 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:24 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:24 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:25 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:25 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:25 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:25 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:26 AM daemon.py[line:87]INFO - gui msg: {'req': {'command': 'lattice_led_control', 'colour': [20, 20, 20], 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:25:26 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:25:26 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:26 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:25:26 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:25:26 AM daemon.py[line:897]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:25:26 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:26 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:26 AM daemon.py[line:611]ERROR - no ack
+07/18/2022 09:25:26 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+07/18/2022 09:25:27 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:27 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:27 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:27 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:28 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:28 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:28 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:28 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:28 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:29 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:29 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:29 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:29 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:29 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:30 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:30 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:30 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:30 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:31 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:31 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:31 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:32 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:32 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:32 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:32 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:33 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:33 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:33 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:33 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:33 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:34 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:34 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:34 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:35 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:35 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:35 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:35 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:36 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:36 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:36 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:36 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:36 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:37 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:37 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:37 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:37 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:38 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:38 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:38 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:39 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:39 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:39 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:39 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:40 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:40 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:40 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:40 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:40 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:41 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:41 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:41 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:42 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:42 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:42 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:42 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:43 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:43 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:43 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:43 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:43 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:44 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:44 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:44 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:44 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:45 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:45 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:45 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:45 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:45 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:46 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:46 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:46 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:47 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:47 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:47 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:47 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:48 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:48 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:48 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:48 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:48 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:49 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:49 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:49 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:49 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:50 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:50 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:50 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:51 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:51 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:51 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:51 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:52 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:52 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:52 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:52 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:52 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:53 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:53 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:53 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:54 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:54 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:54 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:54 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:55 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:55 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:55 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:55 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:55 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:56 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:56 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:56 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:56 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:57 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:57 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:57 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:57 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:57 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:58 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:58 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:58 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:59 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:25:59 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:25:59 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:25:59 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:00 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:00 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:00 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:00 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:26:00 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:01 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:01 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:01 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:01 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:02 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:02 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:26:02 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:03 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:03 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:03 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:03 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:04 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:04 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:26:04 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:04 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:04 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:05 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:05 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:05 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:05 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:26:05 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:06 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:06 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:07 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:07 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:07 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:07 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:26:07 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:08 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:08 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:08 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:08 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:09 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:09 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:26:09 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:09 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:09 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:10 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:10 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:10 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:11 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:26:11 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:11 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:11 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:12 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:12 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:12 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:12 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:26:12 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:13 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:13 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:13 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:13 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:14 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:14 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:26:14 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:15 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:15 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:15 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:15 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:16 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:16 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:26:16 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:16 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:16 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:17 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:17 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:17 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:18 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:26:18 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:18 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:18 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:19 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:19 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:19 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:19 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:26:19 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:20 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:20 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:20 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:20 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:21 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:21 AM daemon.py[line:891]INFO - b'Oe\xf1!'
+07/18/2022 09:26:21 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:21 AM daemon.py[line:901]ERROR - no ack
+07/18/2022 09:26:21 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:22 AM daemon.py[line:44]INFO - hello
+07/18/2022 09:26:22 AM daemon.py[line:45]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+07/18/2022 09:26:22 AM rcomm.py[line:72]INFO - ruijunfeng-PC
+07/18/2022 09:26:22 AM rcomm.py[line:74]INFO - hello m3
+07/18/2022 09:26:22 AM rcomm.py[line:51]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1IJL-if00-port0
+07/18/2022 09:26:22 AM rcomm.py[line:111]DEBUG - dev: Y opened
+07/18/2022 09:26:22 AM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+07/18/2022 09:26:22 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:22 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:22 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:23 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:23 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:23 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:23 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:24 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:24 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:24 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:25 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:25 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:25 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:25 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:26 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:26 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:26 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:26 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:26 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:27 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:27 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:27 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:28 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:28 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:28 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:28 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:29 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:29 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:29 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:29 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:29 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:30 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:30 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:30 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:30 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:31 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:31 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:31 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:31 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:31 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:32 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:32 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:32 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:33 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:33 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:33 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:33 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:34 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:34 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:34 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:34 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:34 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:35 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:35 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:35 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:35 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:36 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:36 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:36 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:37 AM daemon.py[line:87]INFO - gui msg: {'req': {'led_ids': '101', 'command': 'lattice_led_control', 'device': 'm3', 'colour': [20, 20, 20]}}
+07/18/2022 09:26:37 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:26:37 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:37 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:26:37 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:37 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:37 AM rcomm.py[line:144]INFO - data -> b''
+07/18/2022 09:26:37 AM daemon.py[line:898]DEBUG - r -> b''
+07/18/2022 09:26:37 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:37 AM daemon.py[line:612]ERROR - no ack
+07/18/2022 09:26:37 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'error'}}
+07/18/2022 09:26:37 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:37 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:37 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:38 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:38 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:38 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:38 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:39 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:39 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:39 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:39 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:39 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:40 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:40 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:40 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:41 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:41 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:41 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:41 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:42 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:42 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:42 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:42 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:42 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:43 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:43 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:43 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:43 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:44 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:44 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:44 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:45 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:45 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:45 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:45 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:46 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:46 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:46 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:46 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:46 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:47 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:47 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:47 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:48 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:48 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:48 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:48 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:49 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:49 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:49 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:49 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:49 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:50 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:50 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:50 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:50 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:51 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:51 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:51 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:52 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:52 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:52 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:52 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:53 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:53 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:53 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:53 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:53 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:54 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:54 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:54 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:54 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:54 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:55 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:55 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:55 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:55 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:56 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:56 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:56 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:57 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:57 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:57 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:57 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:58 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:58 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:26:58 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:58 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:58 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:59 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:26:59 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:26:59 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:00 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:27:00 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:00 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:00 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:01 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:01 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:01 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:01 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:27:01 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:02 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:02 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:02 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:02 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:03 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:03 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:27:03 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:04 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:04 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:04 AM rcomm.py[line:227]ERROR - failed to flush Y -> (4, 'Interrupted system call')
+07/18/2022 09:27:04 AM rcomm.py[line:111]DEBUG - dev: Y opened
+07/18/2022 09:27:04 AM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+07/18/2022 09:27:04 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:04 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:05 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:05 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:27:05 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:05 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:05 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:06 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:06 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:06 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:07 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:27:07 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:07 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:07 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:08 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:08 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:08 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:08 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:27:08 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:10 AM daemon.py[line:44]INFO - hello
+07/18/2022 09:27:10 AM daemon.py[line:45]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+07/18/2022 09:27:10 AM rcomm.py[line:72]INFO - ruijunfeng-PC
+07/18/2022 09:27:10 AM rcomm.py[line:74]INFO - hello m3
+07/18/2022 09:27:10 AM rcomm.py[line:51]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1IJL-if00-port0
+07/18/2022 09:27:10 AM rcomm.py[line:111]DEBUG - dev: Y opened
+07/18/2022 09:27:10 AM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+07/18/2022 09:27:10 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:10 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:27:10 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:10 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:10 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:11 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:11 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:11 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:12 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:27:12 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:12 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:12 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:13 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:13 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:13 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:13 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:27:13 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:14 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:14 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:14 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:14 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:53 AM daemon.py[line:44]INFO - hello
+07/18/2022 09:27:53 AM daemon.py[line:45]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+07/18/2022 09:27:53 AM rcomm.py[line:72]INFO - ruijunfeng-PC
+07/18/2022 09:27:53 AM rcomm.py[line:74]INFO - hello m3
+07/18/2022 09:27:53 AM rcomm.py[line:51]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1IJL-if00-port0
+07/18/2022 09:27:55 AM rcomm.py[line:111]DEBUG - dev: Y opened
+07/18/2022 09:27:55 AM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+07/18/2022 09:27:55 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:55 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:27:55 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:55 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:55 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:56 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:56 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:56 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:56 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:27:56 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:57 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:57 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:57 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:57 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:58 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:58 AM daemon.py[line:892]INFO - b'Oe\xf1!'
+07/18/2022 09:27:58 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:27:59 AM daemon.py[line:902]ERROR - no ack
+07/18/2022 09:27:59 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:28:25 AM daemon.py[line:44]INFO - hello
+07/18/2022 09:28:25 AM daemon.py[line:45]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+07/18/2022 09:28:25 AM rcomm.py[line:72]INFO - ruijunfeng-PC
+07/18/2022 09:28:25 AM rcomm.py[line:74]INFO - hello m3
+07/18/2022 09:28:25 AM rcomm.py[line:51]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1IJL-if00-port0
+07/18/2022 09:28:27 AM rcomm.py[line:111]DEBUG - dev: Y opened
+07/18/2022 09:28:27 AM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+07/18/2022 09:28:27 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:28:27 AM daemon.py[line:71]INFO - hello beans_control
+07/18/2022 09:28:41 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:28:41 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:28:41 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:28:41 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:28:41 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:28:41 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:28:41 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:28:42 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:28:42 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:28:42 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:28:42 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:28:42 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:28:42 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:28:42 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:29:35 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:29:35 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:29:35 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:29:35 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:29:35 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:29:35 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:29:35 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:29:37 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:29:37 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:29:37 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:29:37 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:29:37 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:29:37 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:29:37 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:29:38 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:29:38 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:29:38 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:29:38 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:29:38 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:29:38 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:29:38 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:29:52 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:29:52 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:29:52 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:29:52 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:29:52 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:29:52 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:29:52 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:29:54 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:29:54 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:29:54 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:29:54 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:29:54 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:29:54 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:29:54 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:30:03 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:30:03 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:30:03 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:30:03 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:30:04 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:30:04 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:30:04 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:30:04 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:30:04 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:30:04 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:30:04 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:30:04 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:30:04 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:30:04 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:30:05 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:30:05 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:30:05 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:30:05 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:30:05 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:30:05 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:30:05 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:30:06 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:30:06 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:30:06 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:30:06 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:30:06 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:30:06 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:30:06 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:30:07 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:30:07 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:30:07 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:30:07 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:30:07 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:30:07 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:30:07 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:30:07 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:30:07 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:30:07 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:30:07 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:30:07 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:30:07 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:30:07 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:30:08 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:30:08 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:30:08 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:30:08 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:30:08 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:30:08 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:30:08 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:31:30 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:31:30 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:31:30 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:31:30 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:31:30 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:31:30 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:31:30 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:31:30 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:31:30 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:31:30 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:31:30 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:31:30 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:31:30 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:31:30 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:31:31 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:31:31 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:31:31 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:31:31 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:31:31 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:31:31 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:31:31 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:31:32 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:31:32 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:31:32 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:31:32 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:31:32 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:31:32 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:31:32 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:31:33 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:31:33 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:31:33 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:31:33 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:31:33 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:31:33 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:31:33 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:31:33 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:31:33 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:31:33 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:31:33 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:31:33 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:31:33 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:31:33 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:31:34 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:31:34 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:31:34 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:31:34 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:31:34 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:31:34 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:31:34 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:04 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:04 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:04 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:04 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:04 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:04 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:04 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:05 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:05 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:05 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:05 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:05 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:05 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:05 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:06 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:06 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:06 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:06 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:06 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:06 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:06 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:07 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:07 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:07 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:07 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:07 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:07 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:07 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:08 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:08 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:08 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:08 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:08 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:08 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:08 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:08 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:08 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:08 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:08 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:08 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:08 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:08 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:09 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:09 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:09 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:09 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:09 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:09 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:09 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:10 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:10 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:10 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:10 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:10 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:10 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:10 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:10 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:10 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:10 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:10 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:10 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:10 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:10 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:11 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:11 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:11 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:11 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:11 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:11 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:11 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:16 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:16 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:16 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:16 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:16 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:16 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:16 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:17 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:17 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:17 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:17 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:17 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:17 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:17 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:18 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:18 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:18 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:18 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:18 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:18 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:18 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:19 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:19 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:19 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:19 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:19 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:19 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:19 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:20 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:20 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:20 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:20 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:20 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:20 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:20 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:34 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:34 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:34 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:34 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:34 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:34 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:34 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:35 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:35 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:35 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:35 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:35 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:35 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:35 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:36 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:36 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:36 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:36 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:36 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:36 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:36 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:36 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:36 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:36 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:36 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:36 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:36 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:36 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:37 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:37 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:37 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:37 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:37 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:37 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:37 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:37 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:37 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:37 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:37 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:37 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:37 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:37 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:38 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:38 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:38 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:38 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:38 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:38 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:38 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:38 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:38 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:38 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:38 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:38 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:38 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:38 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:38 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:38 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:38 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:38 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:38 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:38 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:38 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:39 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:39 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:39 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:39 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:39 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:39 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:39 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:39 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:39 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:39 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:39 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:39 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:39 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:39 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:40 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:40 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:40 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:40 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:40 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:40 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:40 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:34:40 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:34:40 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:34:40 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:34:40 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:34:40 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:34:40 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:34:40 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:35:10 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:35:10 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:35:10 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:35:10 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:35:10 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:35:10 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:35:10 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:35:11 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:35:11 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:35:11 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:35:11 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:35:11 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:35:11 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:35:11 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:35:12 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:35:12 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:35:12 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:35:12 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:35:12 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:35:12 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:35:12 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:35:12 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:35:12 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:35:12 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:35:12 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:35:12 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:35:12 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:35:12 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:36:25 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:36:25 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:36:25 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:36:25 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:36:25 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:36:25 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:36:25 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:36:26 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:36:26 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:36:26 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:36:26 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:36:26 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:36:26 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:36:26 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:36:27 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:36:27 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:36:27 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:36:27 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:36:27 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:36:27 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:36:27 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:36:27 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:36:27 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:36:27 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:36:27 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:36:27 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:36:27 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:36:27 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:36:28 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:36:28 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:36:28 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:36:28 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:36:28 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:36:28 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:36:28 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:37:49 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:37:49 AM rcomm.py[line:144]INFO - data -> b'\r\n=================== Main Menu ============================\r\n\n  Download image to the internal Flash ----------------- 1\r\n\n  Upload image from the internal Flash ----------------- 2\r\n\n  Execute the loaded application ----------------------- 3\r\n\n  Disable the write protection ------------------------- 4\r\n\n==========================================================\r\n\n'
+07/18/2022 09:37:54 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:37:54 AM rcomm.py[line:144]INFO - data -> b'Start program execution......\r\n\n'
+07/18/2022 09:38:13 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:38:13 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:38:13 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:38:13 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:38:13 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:38:13 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:38:13 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:38:14 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:38:14 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:38:14 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:38:14 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:38:14 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:38:14 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:38:14 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:38:15 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:38:15 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:38:15 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:38:15 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:38:15 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:38:15 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:38:15 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:38:16 AM daemon.py[line:87]INFO - gui msg: {'req': {'colour': [20, 20, 20], 'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3'}}
+07/18/2022 09:38:16 AM daemon.py[line:602]INFO - b'lw-\x01\x14\x14\x14\x01SA'
+07/18/2022 09:38:16 AM rcomm.py[line:219]DEBUG - flush Y
+07/18/2022 09:38:16 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:38:16 AM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+07/18/2022 09:38:16 AM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+07/18/2022 09:38:16 AM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+07/18/2022 09:38:27 AM serv.py[line:49]INFO - serv heatbeat
+07/18/2022 09:39:54 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:39:54 AM rcomm.py[line:144]INFO - data -> b'\r\n=================== Main Menu ============================\r\n\n  Download image to the internal Flash ----------------- 1\r\n\n  Upload image from the internal Flash ----------------- 2\r\n\n  Execute the loaded application ----------------------- 3\r\n\n  Disable the write protection ------------------------- 4\r\n\n==========================================================\r\n\n'
+07/18/2022 09:39:59 AM rcomm.py[line:140]INFO - read: Y
+07/18/2022 09:39:59 AM rcomm.py[line:144]INFO - data -> b'Start program execution......\r\n\n'
+07/18/2022 09:48:27 AM serv.py[line:49]INFO - serv heatbeat
+07/18/2022 09:58:27 AM serv.py[line:49]INFO - serv heatbeat
+07/18/2022 10:08:27 AM serv.py[line:49]INFO - serv heatbeat
+07/18/2022 10:18:27 AM serv.py[line:49]INFO - serv heatbeat

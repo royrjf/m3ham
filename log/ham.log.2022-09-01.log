@@ -1,0 +1,959 @@
+09/01/2022 11:48:11 AM daemon.py[line:45]INFO - hello
+09/01/2022 11:48:11 AM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+09/01/2022 11:48:11 AM rcomm.py[line:72]INFO - ruijunfeng-PC
+09/01/2022 11:48:11 AM rcomm.py[line:74]INFO - hello m3
+09/01/2022 11:48:11 AM rcomm.py[line:51]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B3SMS-if00-port0
+09/01/2022 11:48:11 AM rcomm.py[line:111]DEBUG - dev: Y opened
+09/01/2022 11:48:11 AM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+09/01/2022 11:48:11 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:48:11 AM daemon.py[line:731]INFO - b'lg\x06R'
+09/01/2022 11:48:11 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:48:12 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:48:12 AM rcomm.py[line:143]INFO - data -> b'lgok\xc2\xce'
+09/01/2022 11:48:12 AM daemon.py[line:736]DEBUG - r -> b'lgok\xc2\xce'
+09/01/2022 11:48:12 AM daemon.py[line:77]INFO - hello beans_control
+09/01/2022 11:49:56 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [80, 80, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,108', 'command': 'lattice_led_control'}}
+09/01/2022 11:49:56 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+09/01/2022 11:51:50 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [80, 80, 0], 'device': 'm3', 'led_ids': '101', 'command': 'lattice_led_control'}}
+09/01/2022 11:51:50 AM daemon.py[line:660]INFO - b'lw-\x01PP\x00\x01\xe4\xeb'
+09/01/2022 11:51:50 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:51:50 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:51:50 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:51:50 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:51:50 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:52:02 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [80, 80, 0], 'device': 'm3', 'led_ids': '101,102', 'command': 'lattice_led_control'}}
+09/01/2022 11:52:02 AM daemon.py[line:660]INFO - b'lw-\x02PP\x00\x01\x02\xe7F'
+09/01/2022 11:52:02 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:52:02 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:52:02 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:52:02 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:52:02 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:52:12 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [80, 80, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105', 'command': 'lattice_led_control'}}
+09/01/2022 11:52:12 AM daemon.py[line:660]INFO - b'lw-\x05PP\x00\x01\x02\x03\x04\x08\x1f\x83'
+09/01/2022 11:52:12 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:52:12 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:52:12 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:52:12 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:52:12 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:52:19 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [80, 80, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,108', 'command': 'lattice_led_control'}}
+09/01/2022 11:52:19 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+09/01/2022 11:52:25 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [80, 80, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107', 'command': 'lattice_led_control'}}
+09/01/2022 11:52:25 AM daemon.py[line:660]INFO - b'lw-\x07PP\x00\x01\x02\x03\x04\x08\t\nt\x16'
+09/01/2022 11:52:25 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:52:25 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:52:25 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:52:25 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:52:25 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:52:46 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [80, 80, 0], 'device': 'm3', 'led_ids': '201,202,203,204,205,206,207,208', 'command': 'lattice_led_control'}}
+09/01/2022 11:52:46 AM daemon.py[line:660]INFO - b'lw-\nPP\x00\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x11\x03'
+09/01/2022 11:52:46 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:52:46 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:52:46 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:52:46 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:52:46 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:52:55 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [80, 80, 0], 'device': 'm3', 'led_ids': '201,202,203,204,205,206,207,209', 'command': 'lattice_led_control'}}
+09/01/2022 11:52:55 AM daemon.py[line:660]INFO - b'lw-\nPP\x00\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0b\xf6s'
+09/01/2022 11:52:55 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:52:55 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:52:55 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:52:55 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:52:55 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:53:30 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [80, 80, 0], 'device': 'm3', 'led_ids': '301,302,303,304,305,306,307,308,309,310,311,312,313', 'command': 'lattice_led_control'}}
+09/01/2022 11:53:30 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+09/01/2022 11:53:37 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [80, 80, 0], 'device': 'm3', 'led_ids': '301,302,303,304,305,306,307,308,309,310,311,312', 'command': 'lattice_led_control'}}
+09/01/2022 11:53:37 AM daemon.py[line:660]INFO - b'lw-\x0cPP\x00\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\xc6\x17'
+09/01/2022 11:53:37 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:53:37 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:53:37 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:53:37 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:53:37 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:54:11 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [80, 80, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 11:54:11 AM daemon.py[line:660]INFO - b'lw-\x0fPP\x00-,+*)(\'&%$#"! \x1f\xa3\x06'
+09/01/2022 11:54:11 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:54:11 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:54:11 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:54:11 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:54:11 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:54:24 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 11:54:24 AM daemon.py[line:660]INFO - b'lw-\x0f\xa0\xa0\x00-,+*)(\'&%$#"! \x1f\x0c\xb7'
+09/01/2022 11:54:24 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:54:24 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:54:24 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:54:24 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:54:24 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:54:37 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '301,302,303,304,305,306,307,308,309,310,311,312', 'command': 'lattice_led_control'}}
+09/01/2022 11:54:37 AM daemon.py[line:660]INFO - b'lw-\x0c\xa0\xa0\x00\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\xba\x9d'
+09/01/2022 11:54:37 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:54:37 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:54:37 AM rcomm.py[line:143]INFO - data -> b'lERR\xd7\xf2'
+09/01/2022 11:54:37 AM daemon.py[line:666]DEBUG - r -> b'lERR\xd7\xf2'
+09/01/2022 11:54:37 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:54:37 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:54:37 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:54:37 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:54:37 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:54:59 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '301,302,303,304,305,306,307,308,309,310,311,312', 'command': 'lattice_led_control'}}
+09/01/2022 11:54:59 AM daemon.py[line:660]INFO - b'lw-\x0c\x00\x00\x00\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\r\x9e'
+09/01/2022 11:54:59 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:54:59 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:55:00 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:55:00 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:55:00 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:56:44 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '301,302,303,304,305,306,307,308,309,310,311,312', 'command': 'lattice_led_control'}}
+09/01/2022 11:56:44 AM daemon.py[line:660]INFO - b'lw-\x0c\xa0\xa0\x00\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\xba\x9d'
+09/01/2022 11:56:44 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:56:44 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:56:44 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:56:44 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:56:44 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:56:56 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 11:56:56 AM daemon.py[line:660]INFO - b'lw-\x0f\xa0\xa0\x00-,+*)(\'&%$#"! \x1f\x0c\xb7'
+09/01/2022 11:56:56 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:56:56 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:56:56 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:56:56 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:56:56 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:57:09 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '301,302,303,304,305,306,307,308,309,310,311,312', 'command': 'lattice_led_control'}}
+09/01/2022 11:57:09 AM daemon.py[line:660]INFO - b'lw-\x0c\xa0\xa0\x00\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\xba\x9d'
+09/01/2022 11:57:09 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:57:09 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:57:10 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:57:10 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:57:10 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:57:11 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 11:57:11 AM daemon.py[line:660]INFO - b'lw-\x0f\xa0\xa0\x00-,+*)(\'&%$#"! \x1f\x0c\xb7'
+09/01/2022 11:57:11 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:57:11 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:57:11 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:57:11 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:57:11 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:57:32 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '201,202,203,204,205,206,207,208', 'command': 'lattice_led_control'}}
+09/01/2022 11:57:32 AM daemon.py[line:660]INFO - b'lw-\n\xa0\xa0\x00\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\xac\xf9'
+09/01/2022 11:57:32 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:57:32 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:57:32 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:57:32 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:57:32 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:58:01 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,108', 'command': 'lattice_led_control'}}
+09/01/2022 11:58:01 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+09/01/2022 11:58:11 AM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 11:58:14 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,108', 'command': 'lattice_led_control'}}
+09/01/2022 11:58:14 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+09/01/2022 11:58:22 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107', 'command': 'lattice_led_control'}}
+09/01/2022 11:58:22 AM daemon.py[line:660]INFO - b'lw-\x07\xa0\xa0\x00\x01\x02\x03\x04\x08\t\n\xa89'
+09/01/2022 11:58:22 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:58:22 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:58:23 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:58:23 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:58:23 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:58:42 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107', 'command': 'lattice_led_control'}}
+09/01/2022 11:58:42 AM daemon.py[line:660]INFO - b'lw-\x07\xa0\x00\x00\x01\x02\x03\x04\x08\t\n\xe6!'
+09/01/2022 11:58:42 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:58:42 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:58:42 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:58:42 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:58:42 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:58:50 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 160, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107', 'command': 'lattice_led_control'}}
+09/01/2022 11:58:50 AM daemon.py[line:660]INFO - b'lw-\x07\x00\xa0\x00\x01\x02\x03\x04\x08\t\n\x91\xe4'
+09/01/2022 11:58:50 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:58:50 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:58:50 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:58:50 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:58:50 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:58:59 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107', 'command': 'lattice_led_control'}}
+09/01/2022 11:58:59 AM daemon.py[line:660]INFO - b'lw-\x07\x00\x00\x00\x01\x02\x03\x04\x08\t\n\xdf\xfc'
+09/01/2022 11:58:59 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:58:59 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:58:59 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:58:59 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:58:59 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:59:02 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '301,302,303,304,305,306,307,308,309,310,311,312', 'command': 'lattice_led_control'}}
+09/01/2022 11:59:02 AM daemon.py[line:660]INFO - b'lw-\x0c\x00\x00\x00\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\r\x9e'
+09/01/2022 11:59:02 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:59:02 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:59:02 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:59:02 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:59:02 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:59:14 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '201,202,203,204,205,206,207,208', 'command': 'lattice_led_control'}}
+09/01/2022 11:59:14 AM daemon.py[line:660]INFO - b'lw-\n\x00\x00\x00\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0ce\xa5'
+09/01/2022 11:59:14 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:59:14 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:59:14 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:59:14 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:59:14 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 11:59:23 AM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 11:59:23 AM daemon.py[line:660]INFO - b'lw-\x0f\x00\x00\x00-,+*)(\'&%$#"! \x1f\xc6i'
+09/01/2022 11:59:23 AM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 11:59:23 AM rcomm.py[line:139]INFO - read: Y
+09/01/2022 11:59:23 AM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 11:59:23 AM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 11:59:23 AM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:00:21 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:00:21 PM daemon.py[line:660]INFO - b'lw-,\x00\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1fzK'
+09/01/2022 12:00:21 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:00:21 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:00:21 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:00:21 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:00:21 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:00:29 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [100, 100, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:00:29 PM daemon.py[line:660]INFO - b'lw-,dd\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\x03h'
+09/01/2022 12:00:29 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:00:29 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:00:29 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:00:29 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:00:29 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:00:38 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:00:38 PM daemon.py[line:660]INFO - b'lw-,\x00\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1fzK'
+09/01/2022 12:00:38 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:00:38 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:00:38 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:00:38 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:00:38 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:00:39 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [100, 100, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:00:39 PM daemon.py[line:660]INFO - b'lw-,dd\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\x03h'
+09/01/2022 12:00:39 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:00:39 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:00:39 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:00:39 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:00:39 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:00:40 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:00:40 PM daemon.py[line:660]INFO - b'lw-,\x00\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1fzK'
+09/01/2022 12:00:40 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:00:40 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:00:40 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:00:40 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:00:40 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:00:40 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [100, 100, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:00:40 PM daemon.py[line:660]INFO - b'lw-,dd\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\x03h'
+09/01/2022 12:00:40 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:00:40 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:00:40 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:00:40 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:00:40 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:00:47 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:00:47 PM daemon.py[line:660]INFO - b'lw-,\x00\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1fzK'
+09/01/2022 12:00:47 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:00:47 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:00:47 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:00:47 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:00:47 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:01:08 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [80, 80, 0], 'device': 'm3', 'led_ids': '301', 'command': 'lattice_led_control'}}
+09/01/2022 12:01:08 PM daemon.py[line:660]INFO - b'lw-\x01PP\x00\x13\x97\xd9'
+09/01/2022 12:01:08 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:01:08 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:01:08 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:01:08 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:01:08 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:01:20 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '301', 'command': 'lattice_led_control'}}
+09/01/2022 12:01:20 PM daemon.py[line:660]INFO - b'lw-\x01\x00\x00\x00\x13b\xf2'
+09/01/2022 12:01:20 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:01:20 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:01:20 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:01:20 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:01:20 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:01:21 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [80, 80, 0], 'device': 'm3', 'led_ids': '301', 'command': 'lattice_led_control'}}
+09/01/2022 12:01:21 PM daemon.py[line:660]INFO - b'lw-\x01PP\x00\x13\x97\xd9'
+09/01/2022 12:01:21 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:01:21 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:01:21 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:01:21 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:01:21 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:01:23 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '301', 'command': 'lattice_led_control'}}
+09/01/2022 12:01:23 PM daemon.py[line:660]INFO - b'lw-\x01\x00\x00\x00\x13b\xf2'
+09/01/2022 12:01:23 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:01:23 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:01:23 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:01:23 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:01:23 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:01:25 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [80, 80, 0], 'device': 'm3', 'led_ids': '301', 'command': 'lattice_led_control'}}
+09/01/2022 12:01:25 PM daemon.py[line:660]INFO - b'lw-\x01PP\x00\x13\x97\xd9'
+09/01/2022 12:01:25 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:01:25 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:01:25 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:01:25 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:01:25 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:01:34 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '301', 'command': 'lattice_led_control'}}
+09/01/2022 12:01:34 PM daemon.py[line:660]INFO - b'lw-\x01\x00\x00\x00\x13b\xf2'
+09/01/2022 12:01:34 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:01:34 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:01:34 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:01:34 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:01:34 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:01:37 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:01:37 PM daemon.py[line:660]INFO - b'lw-,\x00\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1fzK'
+09/01/2022 12:01:37 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:01:37 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:01:38 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:01:38 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:01:38 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:01:51 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [100, 100, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:01:51 PM daemon.py[line:660]INFO - b'lw-,dd\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\x03h'
+09/01/2022 12:01:51 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:01:51 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:01:51 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:01:51 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:01:51 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:01:59 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:01:59 PM daemon.py[line:660]INFO - b'lw-,\x00\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1fzK'
+09/01/2022 12:01:59 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:01:59 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:01:59 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:01:59 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:01:59 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:02:24 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [100, 100, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:02:24 PM daemon.py[line:660]INFO - b'lw-,dd\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\x03h'
+09/01/2022 12:02:24 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:02:24 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:02:24 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:02:24 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:02:24 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:02:28 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:02:28 PM daemon.py[line:660]INFO - b'lw-,\x00\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1fzK'
+09/01/2022 12:02:28 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:02:28 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:02:28 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:02:28 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:02:28 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:02:42 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [100, 100, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:02:42 PM daemon.py[line:660]INFO - b'lw--dd\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xa5\xf1'
+09/01/2022 12:02:42 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:02:42 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:02:42 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:02:42 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:02:42 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:02:44 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:02:44 PM daemon.py[line:660]INFO - b'lw-,\x00\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1fzK'
+09/01/2022 12:02:44 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:02:44 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:02:44 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:02:44 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:02:44 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:02:45 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [100, 100, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:02:45 PM daemon.py[line:660]INFO - b'lw--dd\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xa5\xf1'
+09/01/2022 12:02:45 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:02:45 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:02:45 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:02:45 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:02:45 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:02:47 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:02:47 PM daemon.py[line:660]INFO - b'lw-,\x00\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1fzK'
+09/01/2022 12:02:47 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:02:47 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:02:47 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:02:47 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:02:47 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:02:48 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [100, 100, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:02:48 PM daemon.py[line:660]INFO - b'lw--dd\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xa5\xf1'
+09/01/2022 12:02:48 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:02:48 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:02:48 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:02:48 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:02:48 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:03:32 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:03:32 PM daemon.py[line:660]INFO - b'lw-,\x00\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1fzK'
+09/01/2022 12:03:32 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:03:32 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:03:32 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:03:32 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:03:32 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:03:48 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:03:48 PM daemon.py[line:660]INFO - b'lw--\x00\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xa4\x9c'
+09/01/2022 12:03:48 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:03:48 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:03:48 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:03:48 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:03:48 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:03:53 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [100, 100, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:03:53 PM daemon.py[line:660]INFO - b'lw--dd\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xa5\xf1'
+09/01/2022 12:03:53 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:03:53 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:03:53 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:03:53 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:03:53 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:04:38 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:04:38 PM daemon.py[line:660]INFO - b'lw--\x00\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xa4\x9c'
+09/01/2022 12:04:38 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:04:38 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:04:38 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:04:38 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:04:38 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:04:53 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:04:53 PM daemon.py[line:660]INFO - b'lw-\x0f\xa0\xa0\x00-,+*)(\'&%$#"! \x1f\x0c\xb7'
+09/01/2022 12:04:53 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:04:53 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:04:53 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:04:53 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:04:53 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:04:58 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:04:58 PM daemon.py[line:660]INFO - b'lw-\x0f\x00\x00\x00-,+*)(\'&%$#"! \x1f\xc6i'
+09/01/2022 12:04:58 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:04:58 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:04:58 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:04:58 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:04:58 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:05:11 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401', 'command': 'lattice_led_control'}}
+09/01/2022 12:05:11 PM daemon.py[line:660]INFO - b'lw-\x01\xa0\xa0\x00-\x15r'
+09/01/2022 12:05:11 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:05:11 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:05:11 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:05:11 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:05:11 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:05:19 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402', 'command': 'lattice_led_control'}}
+09/01/2022 12:05:19 PM daemon.py[line:660]INFO - b'lw-\x02\xa0\xa0\x00-,\xdb`'
+09/01/2022 12:05:19 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:05:19 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:05:19 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:05:19 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:05:19 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:05:24 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402,403', 'command': 'lattice_led_control'}}
+09/01/2022 12:05:24 PM daemon.py[line:660]INFO - b'lw-\x03\xa0\xa0\x00-,+\xce\x9a'
+09/01/2022 12:05:24 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:05:24 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:05:24 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:05:24 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:05:24 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:05:29 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402,403,404', 'command': 'lattice_led_control'}}
+09/01/2022 12:05:29 PM daemon.py[line:660]INFO - b'lw-\x04\xa0\xa0\x00-,+*\xc3\xae'
+09/01/2022 12:05:29 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:05:29 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:05:29 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:05:29 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:05:29 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:05:35 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405', 'command': 'lattice_led_control'}}
+09/01/2022 12:05:35 PM daemon.py[line:660]INFO - b'lw-\x05\xa0\xa0\x00-,+*)L\xc9'
+09/01/2022 12:05:35 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:05:35 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:05:35 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:05:35 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:05:35 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:05:40 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405', 'command': 'lattice_led_control'}}
+09/01/2022 12:05:40 PM daemon.py[line:660]INFO - b'lw-\x05\x00\x00\x00-,+*)\xaa\x8a'
+09/01/2022 12:05:40 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:05:40 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:05:40 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:05:40 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:05:40 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:05:41 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405', 'command': 'lattice_led_control'}}
+09/01/2022 12:05:41 PM daemon.py[line:660]INFO - b'lw-\x05\xa0\xa0\x00-,+*)L\xc9'
+09/01/2022 12:05:41 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:05:41 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:05:41 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:05:41 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:05:41 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:05:50 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:05:50 PM daemon.py[line:660]INFO - b"lw-\x07\xa0\xa0\x00-,+*)('\xfd^"
+09/01/2022 12:05:50 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:05:50 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:05:50 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:05:50 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:05:50 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:05:58 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:05:58 PM daemon.py[line:660]INFO - b"lw-\x07\x00\x00\x00-,+*)('\x8a\x9b"
+09/01/2022 12:05:58 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:05:58 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:05:58 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:05:58 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:05:58 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:05:59 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:05:59 PM daemon.py[line:660]INFO - b"lw-\x07\xa0\xa0\x00-,+*)('\xfd^"
+09/01/2022 12:05:59 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:05:59 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:05:59 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:05:59 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:05:59 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:06:00 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:06:00 PM daemon.py[line:660]INFO - b"lw-\x07\x00\x00\x00-,+*)('\x8a\x9b"
+09/01/2022 12:06:00 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:06:00 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:06:00 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:06:00 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:06:00 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:06:01 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:06:01 PM daemon.py[line:660]INFO - b"lw-\x07\xa0\xa0\x00-,+*)('\xfd^"
+09/01/2022 12:06:01 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:06:01 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:06:01 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:06:01 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:06:01 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:06:02 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:06:02 PM daemon.py[line:660]INFO - b"lw-\x07\x00\x00\x00-,+*)('\x8a\x9b"
+09/01/2022 12:06:02 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:06:02 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:06:02 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:06:02 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:06:02 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:08:11 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 12:18:11 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 12:28:11 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 12:31:33 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:31:33 PM daemon.py[line:660]INFO - b"lw-\x07\x00\x00\x00-,+*)('\x8a\x9b"
+09/01/2022 12:31:33 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:31:33 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:31:33 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:31:33 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:31:33 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:31:36 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:31:36 PM daemon.py[line:660]INFO - b"lw-\x07\xa0\xa0\x00-,+*)('\xfd^"
+09/01/2022 12:31:36 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:31:36 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:31:36 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:31:36 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:31:36 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:32:07 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,108', 'command': 'lattice_led_control'}}
+09/01/2022 12:32:07 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+09/01/2022 12:32:15 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107', 'command': 'lattice_led_control'}}
+09/01/2022 12:32:15 PM daemon.py[line:660]INFO - b'lw-\x07\xa0\xa0\x00\x01\x02\x03\x04\x08\t\n\xa89'
+09/01/2022 12:32:15 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:32:15 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:32:15 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:32:15 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:32:15 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:32:25 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:32:25 PM daemon.py[line:660]INFO - b"lw-\x07\x00\x00\x00-,+*)('\x8a\x9b"
+09/01/2022 12:32:25 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:32:25 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:32:25 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:32:25 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:32:25 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:32:39 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401', 'command': 'lattice_led_control'}}
+09/01/2022 12:32:39 PM daemon.py[line:660]INFO - b'lw-\x01\xa0\xa0\x00-\x15r'
+09/01/2022 12:32:39 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:32:39 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:32:39 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:32:39 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:32:39 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:32:51 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:32:51 PM daemon.py[line:660]INFO - b"lw-\x07\xa0\xa0\x00-,+*)('\xfd^"
+09/01/2022 12:32:51 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:32:51 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:32:51 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:32:51 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:32:51 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:32:56 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:32:56 PM daemon.py[line:660]INFO - b"lw-\x07\x00\x00\x00-,+*)('\x8a\x9b"
+09/01/2022 12:32:56 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:32:56 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:32:56 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:32:56 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:32:56 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:33:08 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402,403', 'command': 'lattice_led_control'}}
+09/01/2022 12:33:08 PM daemon.py[line:660]INFO - b'lw-\x03\xa0\xa0\x00-,+\xce\x9a'
+09/01/2022 12:33:08 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:33:08 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:33:08 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:33:08 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:33:08 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:33:46 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:33:46 PM daemon.py[line:660]INFO - b"lw-\x07\xa0\xa0\x00-,+*)('\xfd^"
+09/01/2022 12:33:46 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:33:46 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:33:46 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:33:46 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:33:46 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:33:51 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 160, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:33:51 PM daemon.py[line:660]INFO - b"lw-\x07\x00\xa0\x00-,+*)('\xc4\x83"
+09/01/2022 12:33:51 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:33:51 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:33:51 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:33:51 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:33:51 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:33:59 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:33:59 PM daemon.py[line:660]INFO - b"lw-\x07\xa0\x00\x00-,+*)('\xb3F"
+09/01/2022 12:33:59 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:33:59 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:33:59 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:33:59 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:33:59 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:34:09 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 160, 160], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:34:09 PM daemon.py[line:660]INFO - b"lw-\x07\x00\xa0\xa0-,+*)('-\x05"
+09/01/2022 12:34:09 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:34:09 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:34:09 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:34:09 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:34:09 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:34:14 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 160], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:34:14 PM daemon.py[line:660]INFO - b"lw-\x07\x00\x00\xa0-,+*)('c\x1d"
+09/01/2022 12:34:14 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:34:14 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:34:14 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:34:14 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:34:14 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:34:16 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 160, 160], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:34:16 PM daemon.py[line:660]INFO - b"lw-\x07\x00\xa0\xa0-,+*)('-\x05"
+09/01/2022 12:34:16 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:34:16 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:34:16 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:34:16 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:34:16 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:34:31 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 160, 160], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,108', 'command': 'lattice_led_control'}}
+09/01/2022 12:34:31 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+09/01/2022 12:34:40 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 160, 160], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107', 'command': 'lattice_led_control'}}
+09/01/2022 12:34:40 PM daemon.py[line:660]INFO - b'lw-\x07\x00\xa0\xa0\x01\x02\x03\x04\x08\t\nxb'
+09/01/2022 12:34:40 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:34:40 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:34:40 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:34:40 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:34:40 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:35:05 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 160, 160], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:35:05 PM daemon.py[line:660]INFO - b"lw-\x07\x00\xa0\xa0-,+*)('-\x05"
+09/01/2022 12:35:05 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:35:05 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:35:05 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:35:05 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:35:05 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:35:10 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 160], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:35:10 PM daemon.py[line:660]INFO - b"lw-\x07\x00\x00\xa0-,+*)('c\x1d"
+09/01/2022 12:35:10 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:35:10 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:35:10 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:35:10 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:35:10 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:35:20 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 160, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:35:20 PM daemon.py[line:660]INFO - b"lw-\x07\x00\xa0\x00-,+*)('\xc4\x83"
+09/01/2022 12:35:20 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:35:20 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:35:20 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:35:20 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:35:20 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:35:26 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:35:26 PM daemon.py[line:660]INFO - b"lw-\x07\xa0\x00\x00-,+*)('\xb3F"
+09/01/2022 12:35:26 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:35:26 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:35:26 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:35:26 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:35:26 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:35:44 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 160, 160], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:35:44 PM daemon.py[line:660]INFO - b"lw-\x07\x00\xa0\xa0-,+*)('-\x05"
+09/01/2022 12:35:44 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:35:44 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:35:44 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:35:44 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:35:44 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:36:02 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 200, 200], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:36:02 PM daemon.py[line:660]INFO - b"lw-\x07\x00\xc8\xc8-,+*)('\x95G"
+09/01/2022 12:36:02 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:36:02 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:36:03 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:36:03 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:36:03 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:36:16 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 250, 250], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:36:16 PM daemon.py[line:660]INFO - b"lw-\x07\x00\xfa\xfa-,+*)('\x8a\xbc"
+09/01/2022 12:36:16 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:36:16 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:36:16 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:36:16 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:36:16 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:36:23 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:36:23 PM daemon.py[line:660]INFO - b"lw-\x07\x00\x00\x00-,+*)('\x8a\x9b"
+09/01/2022 12:36:23 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:36:23 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:36:23 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:36:23 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:36:23 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:36:29 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 160, 160], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,108', 'command': 'lattice_led_control'}}
+09/01/2022 12:36:29 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+09/01/2022 12:37:58 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [100, 100, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:37:58 PM daemon.py[line:660]INFO - b'lw--dd\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xa5\xf1'
+09/01/2022 12:37:58 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:37:58 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:37:58 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:37:58 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:37:58 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:38:07 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:38:07 PM daemon.py[line:660]INFO - b'lw--\x00d\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xa7\xda'
+09/01/2022 12:38:07 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:38:07 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:38:07 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:38:07 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:38:07 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:38:11 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 12:38:13 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [100, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:38:13 PM daemon.py[line:660]INFO - b'lw--d\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xa6\xb7'
+09/01/2022 12:38:13 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:38:13 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:38:13 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:38:13 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:38:13 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:38:38 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 100], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:38:38 PM daemon.py[line:660]INFO - b'lw--\x00\x00d\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xde\xf9'
+09/01/2022 12:38:38 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:38:38 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:38:38 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:38:38 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:38:38 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:40:55 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:40:55 PM daemon.py[line:660]INFO - b'lw--\x00dd\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xdd\xbf'
+09/01/2022 12:40:55 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:40:55 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:40:55 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:40:55 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:40:55 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:41:41 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401', 'command': 'lattice_led_control'}}
+09/01/2022 12:41:41 PM daemon.py[line:660]INFO - b'lw-\x01\xa0\xa0\x00-\x15r'
+09/01/2022 12:41:41 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:41:41 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:41:41 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:41:41 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:41:41 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:41:43 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401', 'command': 'lattice_led_control'}}
+09/01/2022 12:41:43 PM daemon.py[line:660]INFO - b'lw-\x01\xa0\xa0\x00-\x15r'
+09/01/2022 12:41:43 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:41:43 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:41:43 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:41:43 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:41:43 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:41:45 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [160, 160, 0], 'device': 'm3', 'led_ids': '401', 'command': 'lattice_led_control'}}
+09/01/2022 12:41:45 PM daemon.py[line:660]INFO - b'lw-\x01\xa0\xa0\x00-\x15r'
+09/01/2022 12:41:45 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:41:45 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:41:45 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:41:45 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:41:45 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:41:52 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:41:52 PM daemon.py[line:660]INFO - b'lw--\x00dd\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xdd\xbf'
+09/01/2022 12:41:52 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:41:52 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:41:52 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:41:52 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:41:52 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:42:03 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '401', 'command': 'lattice_led_control'}}
+09/01/2022 12:42:03 PM daemon.py[line:660]INFO - b'lw-\x01\x00dd-\xba\xa5'
+09/01/2022 12:42:03 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:42:03 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:42:03 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:42:03 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:42:03 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:42:04 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '401', 'command': 'lattice_led_control'}}
+09/01/2022 12:42:04 PM daemon.py[line:660]INFO - b'lw-\x01\x00dd-\xba\xa5'
+09/01/2022 12:42:04 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:42:04 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:42:04 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:42:04 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:42:04 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:42:05 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '401', 'command': 'lattice_led_control'}}
+09/01/2022 12:42:05 PM daemon.py[line:660]INFO - b'lw-\x01\x00dd-\xba\xa5'
+09/01/2022 12:42:05 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:42:05 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:42:05 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:42:05 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:42:05 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:42:06 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '401', 'command': 'lattice_led_control'}}
+09/01/2022 12:42:06 PM daemon.py[line:660]INFO - b'lw-\x01\x00dd-\xba\xa5'
+09/01/2022 12:42:06 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:42:06 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:42:06 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:42:06 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:42:06 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:42:28 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:42:28 PM daemon.py[line:660]INFO - b'lw--\x00\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xa4\x9c'
+09/01/2022 12:42:28 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:42:28 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:42:28 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:42:28 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:42:28 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:42:32 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '401', 'command': 'lattice_led_control'}}
+09/01/2022 12:42:32 PM daemon.py[line:660]INFO - b'lw-\x01\x00dd-\xba\xa5'
+09/01/2022 12:42:32 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:42:32 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:42:32 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:42:32 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:42:32 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:42:44 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,108', 'command': 'lattice_led_control'}}
+09/01/2022 12:42:44 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+09/01/2022 12:42:55 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407', 'command': 'lattice_led_control'}}
+09/01/2022 12:42:55 PM daemon.py[line:660]INFO - b"lw-\x07\x00dd-,+*)('\x95}"
+09/01/2022 12:42:55 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:42:55 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:42:55 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:42:55 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:42:55 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:43:24 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:43:24 PM daemon.py[line:660]INFO - b'lw-\x0f\x00dd-,+*)(\'&%$#"! \x1f\xa6$'
+09/01/2022 12:43:24 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:43:24 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:43:24 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:43:24 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:43:24 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:43:57 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:43:57 PM daemon.py[line:660]INFO - b'lw-\x0f\x00\x00\x00-,+*)(\'&%$#"! \x1f\xc6i'
+09/01/2022 12:43:57 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:43:57 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:43:57 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:43:57 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:43:57 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:43:58 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:43:58 PM daemon.py[line:660]INFO - b'lw-\x0f\x00dd-,+*)(\'&%$#"! \x1f\xa6$'
+09/01/2022 12:43:58 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:43:58 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:43:58 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:43:58 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:43:58 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:44:03 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:44:03 PM daemon.py[line:660]INFO - b'lw-\x0f\x00\x00\x00-,+*)(\'&%$#"! \x1f\xc6i'
+09/01/2022 12:44:03 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:44:03 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:44:03 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:44:03 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:44:03 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:44:04 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:44:04 PM daemon.py[line:660]INFO - b'lw-\x0f\x00dd-,+*)(\'&%$#"! \x1f\xa6$'
+09/01/2022 12:44:04 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:44:04 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:44:04 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:44:04 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:44:04 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:44:06 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:44:06 PM daemon.py[line:660]INFO - b'lw-\x0f\x00\x00\x00-,+*)(\'&%$#"! \x1f\xc6i'
+09/01/2022 12:44:06 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:44:06 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:44:06 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:44:06 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:44:06 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:44:06 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:44:06 PM daemon.py[line:660]INFO - b'lw-\x0f\x00dd-,+*)(\'&%$#"! \x1f\xa6$'
+09/01/2022 12:44:06 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:44:06 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:44:06 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:44:06 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:44:06 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:44:07 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:44:07 PM daemon.py[line:660]INFO - b'lw-\x0f\x00\x00\x00-,+*)(\'&%$#"! \x1f\xc6i'
+09/01/2022 12:44:07 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:44:08 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:44:08 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:44:08 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:44:08 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:44:08 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:44:08 PM daemon.py[line:660]INFO - b'lw-\x0f\x00dd-,+*)(\'&%$#"! \x1f\xa6$'
+09/01/2022 12:44:08 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:44:08 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:44:08 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:44:08 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:44:08 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:44:09 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:44:09 PM daemon.py[line:660]INFO - b'lw-\x0f\x00\x00\x00-,+*)(\'&%$#"! \x1f\xc6i'
+09/01/2022 12:44:09 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:44:09 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:44:09 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:44:09 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:44:09 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:44:10 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:44:10 PM daemon.py[line:660]INFO - b'lw-\x0f\x00dd-,+*)(\'&%$#"! \x1f\xa6$'
+09/01/2022 12:44:10 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:44:10 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:44:10 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:44:10 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:44:10 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:44:15 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 100, 100], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:44:15 PM daemon.py[line:660]INFO - b'lw--\x00dd\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xdd\xbf'
+09/01/2022 12:44:15 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:44:15 PM rcomm.py[line:226]ERROR - failed to flush Y -> (4, 'Interrupted system call')
+09/01/2022 12:44:15 PM rcomm.py[line:111]DEBUG - dev: Y opened
+09/01/2022 12:44:15 PM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+09/01/2022 12:44:15 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:44:15 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:44:15 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:44:15 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:44:44 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 50, 50], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:44:44 PM daemon.py[line:660]INFO - b'lw--\x0022\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\x08\x05'
+09/01/2022 12:44:44 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:44:44 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:44:44 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:44:44 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:44:44 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:45:04 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 30, 30], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:45:04 PM daemon.py[line:660]INFO - b'lw--\x00\x1e\x1e\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\x12\xfb'
+09/01/2022 12:45:04 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:45:04 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:45:04 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:45:04 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:45:04 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:45:12 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 40, 40], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:45:12 PM daemon.py[line:660]INFO - b'lw--\x00((\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xf3\xe6'
+09/01/2022 12:45:12 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:45:12 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:45:12 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:45:12 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:45:12 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:45:19 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 80, 80], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:45:19 PM daemon.py[line:660]INFO - b'lw--\x00PP\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\nh'
+09/01/2022 12:45:19 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:45:19 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:45:19 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:45:19 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:45:19 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:47:49 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 0, 80], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:47:49 PM daemon.py[line:660]INFO - b'lw--\x00\x00P\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\x16\t'
+09/01/2022 12:47:49 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:47:49 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:47:49 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:47:49 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:47:49 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:47:58 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [0, 80, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:47:58 PM daemon.py[line:660]INFO - b'lw--\x00P\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xb8\xfd'
+09/01/2022 12:47:58 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:47:58 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:47:58 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:47:58 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:47:58 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:48:03 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [80, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:48:03 PM daemon.py[line:660]INFO - b'lw--P\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f#\xfc'
+09/01/2022 12:48:03 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:48:03 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:48:03 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:48:03 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:48:03 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:48:11 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 12:48:19 PM daemon.py[line:93]INFO - gui msg: {'req': {'colour': [150, 0, 0], 'device': 'm3', 'led_ids': '101,102,103,104,105,106,107,201,202,203,204,205,206,207,208,209,301,302,303,304,305,306,307,308,309,310,311,312,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415', 'command': 'lattice_led_control'}}
+09/01/2022 12:48:19 PM daemon.py[line:660]INFO - b'lw--\x96\x00\x00\x01\x02\x03\x04\x08\t\n\x12\x11\x10\x0f\x05\x06\x07\x0e\r\x0c\x0b\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e-,+*)(\'&%$#"! \x1f\xcc\xd3'
+09/01/2022 12:48:19 PM rcomm.py[line:218]DEBUG - flush Y
+09/01/2022 12:48:19 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:48:19 PM rcomm.py[line:143]INFO - data -> b'lLEDU\x84'
+09/01/2022 12:48:19 PM daemon.py[line:666]DEBUG - r -> b'lLEDU\x84'
+09/01/2022 12:48:19 PM daemon.py[line:111]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+09/01/2022 12:53:10 PM rcomm.py[line:139]INFO - read: Y
+09/01/2022 12:53:10 PM rcomm.py[line:171]ERROR - failed to read dev: Y as [Errno 5] Input/output error
+09/01/2022 12:53:10 PM rcomm.py[line:115]ERROR - failed to open device: Y as [Errno 2] could not open port /dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B3SMS-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B3SMS-if00-port0'
+09/01/2022 12:53:10 PM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+09/01/2022 12:58:11 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 01:08:11 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 01:18:11 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 01:28:11 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 01:38:11 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 01:48:11 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 01:58:11 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 02:08:11 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 02:18:11 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 02:28:11 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 02:38:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 02:48:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 02:58:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 03:08:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 03:18:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 03:28:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 03:38:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 03:48:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 03:58:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 04:08:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 04:18:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 04:28:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 04:38:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 04:48:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 04:58:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 05:08:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 05:18:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 05:28:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 05:38:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 05:48:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 05:58:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 06:08:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 06:18:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 06:28:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 06:38:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 06:48:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 06:58:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 07:08:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 07:18:12 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 09:34:16 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 09:44:16 PM serv.py[line:49]INFO - serv heatbeat
+09/01/2022 09:54:16 PM serv.py[line:49]INFO - serv heatbeat

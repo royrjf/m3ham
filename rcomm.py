@@ -63,40 +63,19 @@ class Rcomm( threading.Thread ):
         curDir = os.path.abspath(os.path.dirname(__file__))
         self.jsonPath = os.path.join(curDir,  "d2.json")
         
-        assert len(conf.DEV_LIST) == 9
+        assert len(conf.DEV_LIST) == 2
         self.rlink_usb_cnt=0
         self.fkc_usb_cnt=0
         self.spring_select_mode_flag=0
         #pcname=socket.getfqdn(socket.gethostname())
         pcname=platform.node()
         self.trace.info('%s'%pcname)
-        if pcname.find('D1') is 0:
-            s=''
-            pcname_list=['101','102','103','104','105','106','107','108']
-            for s in pcname_list:
-                if pcname.find(s)==-1:
-                    self.trace.info('%s'%pcname)
-                    self.trace.info('hello d1')
-                    pass
-                else:                 
-                    self.spring_select_mode_flag=1
-                    self.trace.info('hello d1 old machine')
-            conf.DEV_LIST[1]['baud']=9600
-            conf.DEV_LIST[1]['timeout']=10
-        elif pcname.find('D3') is 0:
-            conf.DEV_LIST[1]['name']='Y'
-            self.trace.info('hello D3')
-        elif pcname.find('Y') is 0:
-            self.trace.info('hello Y')
-            _Y_search_device(self.trace )
-            self.xmodem_crc_func = crcmod.mkCrcFun(0x11021, rev=False,
-                                                    initCrc=0xffff, xorOut=0x0000)
-        elif pcname.find('rui') is 0:
+        if pcname.find('rui') is 0:
             self.trace.info('hello m3')
             _Y_search_device(self.trace )
             self.xmodem_crc_func = crcmod.mkCrcFun(0x11021, rev=False,
                                                     initCrc=0xffff, xorOut=0x0000)
-            pass
+            #pass
         elif pcname.find('rui') is 0:
             #self.trace.info('hello m3')
             #self.trace.info('hello test Y')
@@ -104,8 +83,6 @@ class Rcomm( threading.Thread ):
             #self.xmodem_crc_func = crcmod.mkCrcFun(0x11021, rev=False,
             #                                        initCrc=0xffff, xorOut=0x0000)
             pass
-        else:
-            self.trace.info('hello d2')
             
         dev_dict = {}
         for d in conf.DEV_LIST:
@@ -158,7 +135,6 @@ class Rcomm( threading.Thread ):
             return True
     def process_rx(self, r_list):
         # self.trace.info(r_list)
-                    
         for d in r_list:
             self.trace.info('read: %s' %(d.name))
             try:

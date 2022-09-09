@@ -1,0 +1,54 @@
+08/01/2022 04:28:06 PM daemon.py[line:44]INFO - hello
+08/01/2022 04:28:06 PM daemon.py[line:45]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+08/01/2022 04:28:06 PM rcomm.py[line:72]INFO - ruijunfeng-PC
+08/01/2022 04:28:06 PM rcomm.py[line:74]INFO - hello m3
+08/01/2022 04:28:06 PM rcomm.py[line:51]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B29ZB-if00-port0
+08/01/2022 04:28:07 PM rcomm.py[line:111]DEBUG - dev: Y opened
+08/01/2022 04:28:07 PM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+08/01/2022 04:28:07 PM rcomm.py[line:219]DEBUG - flush Y
+08/01/2022 04:28:07 PM daemon.py[line:71]INFO - hello beans_control
+08/01/2022 04:29:02 PM daemon.py[line:87]INFO - gui msg: {'req': {'device': 'm3', 'colour': [20, 30, 30], 'command': 'lattice_led_control', 'led_ids': '402'}}
+08/01/2022 04:29:02 PM daemon.py[line:602]INFO - b'lw-\x01\x14\x1e\x1e,\x96\x9c'
+08/01/2022 04:29:02 PM rcomm.py[line:219]DEBUG - flush Y
+08/01/2022 04:29:02 PM rcomm.py[line:140]INFO - read: Y
+08/01/2022 04:29:02 PM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+08/01/2022 04:29:02 PM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+08/01/2022 04:29:02 PM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+08/01/2022 04:29:10 PM daemon.py[line:87]INFO - gui msg: {'req': {'device': 'm3', 'colour': [20, 30, 30], 'command': 'lattice_led_control', 'led_ids': '401'}}
+08/01/2022 04:29:10 PM daemon.py[line:602]INFO - b'lw-\x01\x14\x1e\x1e-\xb7\x8c'
+08/01/2022 04:29:10 PM rcomm.py[line:219]DEBUG - flush Y
+08/01/2022 04:29:10 PM rcomm.py[line:140]INFO - read: Y
+08/01/2022 04:29:10 PM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+08/01/2022 04:29:10 PM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+08/01/2022 04:29:10 PM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+08/01/2022 04:29:37 PM daemon.py[line:87]INFO - gui msg: {'req': {'device': 'm3', 'colour': [20, 30, 0], 'command': 'lattice_led_control', 'led_ids': '401'}}
+08/01/2022 04:29:37 PM daemon.py[line:602]INFO - b'lw-\x01\x14\x1e\x00-\xcb\xac'
+08/01/2022 04:29:37 PM rcomm.py[line:219]DEBUG - flush Y
+08/01/2022 04:29:37 PM rcomm.py[line:140]INFO - read: Y
+08/01/2022 04:29:37 PM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+08/01/2022 04:29:37 PM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+08/01/2022 04:29:37 PM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+08/01/2022 04:30:02 PM daemon.py[line:87]INFO - gui msg: {'req': {'device': 'm3', 'colour': [20, 30, 0], 'command': 'lattice_led_control', 'led_ids': '403'}}
+08/01/2022 04:30:02 PM daemon.py[line:602]INFO - b'lw-\x01\x14\x1e\x00+\r\xcc'
+08/01/2022 04:30:02 PM rcomm.py[line:219]DEBUG - flush Y
+08/01/2022 04:30:02 PM rcomm.py[line:140]INFO - read: Y
+08/01/2022 04:30:02 PM rcomm.py[line:144]INFO - data -> b'lLEDU\x84'
+08/01/2022 04:30:02 PM daemon.py[line:608]DEBUG - r -> b'lLEDU\x84'
+08/01/2022 04:30:02 PM daemon.py[line:105]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+08/01/2022 04:38:07 PM serv.py[line:49]INFO - serv heatbeat
+08/01/2022 04:48:07 PM serv.py[line:49]INFO - serv heatbeat
+08/01/2022 04:58:07 PM serv.py[line:49]INFO - serv heatbeat
+08/01/2022 05:08:07 PM serv.py[line:49]INFO - serv heatbeat
+08/01/2022 05:18:07 PM serv.py[line:49]INFO - serv heatbeat
+08/01/2022 05:28:07 PM serv.py[line:49]INFO - serv heatbeat
+08/01/2022 05:30:18 PM rcomm.py[line:140]INFO - read: Y
+08/01/2022 05:30:19 PM rcomm.py[line:172]ERROR - failed to read dev: Y as [Errno 5] Input/output error
+08/01/2022 05:30:19 PM rcomm.py[line:115]ERROR - failed to open device: Y as [Errno 2] could not open port /dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B29ZB-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B29ZB-if00-port0'
+08/01/2022 05:30:19 PM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+08/01/2022 05:38:07 PM serv.py[line:49]INFO - serv heatbeat
+08/01/2022 05:48:07 PM serv.py[line:49]INFO - serv heatbeat
+08/01/2022 05:58:07 PM serv.py[line:49]INFO - serv heatbeat
+08/01/2022 06:08:07 PM serv.py[line:49]INFO - serv heatbeat
+08/01/2022 06:18:07 PM serv.py[line:49]INFO - serv heatbeat
+08/01/2022 06:28:07 PM serv.py[line:49]INFO - serv heatbeat
+08/02/2022 09:49:22 AM serv.py[line:49]INFO - serv heatbeat

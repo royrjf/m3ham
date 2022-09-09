@@ -1,0 +1,18 @@
+08/19/2022 12:04:19 PM daemon.py[line:45]INFO - hello
+08/19/2022 12:04:19 PM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+08/19/2022 12:04:19 PM rcomm.py[line:72]INFO - ruijunfeng-PC
+08/19/2022 12:04:19 PM rcomm.py[line:74]INFO - hello m3
+08/19/2022 12:04:19 PM rcomm.py[line:51]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+08/19/2022 12:04:20 PM rcomm.py[line:111]DEBUG - dev: Y opened
+08/19/2022 12:04:20 PM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+08/19/2022 12:04:20 PM rcomm.py[line:218]DEBUG - flush Y
+08/19/2022 12:04:21 PM daemon.py[line:723]INFO - b'lg\x06R'
+08/19/2022 12:04:21 PM rcomm.py[line:218]DEBUG - flush Y
+08/19/2022 12:04:21 PM daemon.py[line:732]ERROR - no ack
+08/19/2022 12:04:21 PM daemon.py[line:723]INFO - b'lg\x06R'
+08/19/2022 12:04:21 PM rcomm.py[line:218]DEBUG - flush Y
+08/19/2022 12:04:22 PM daemon.py[line:732]ERROR - no ack
+08/19/2022 12:04:22 PM daemon.py[line:723]INFO - b'lg\x06R'
+08/19/2022 12:04:22 PM rcomm.py[line:218]DEBUG - flush Y
+08/19/2022 12:04:22 PM daemon.py[line:732]ERROR - no ack
+08/19/2022 12:04:22 PM daemon.py[line:77]INFO - hello beans_control
