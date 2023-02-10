@@ -1,24 +1,230 @@
-09/09/2022 09:56:45 AM daemon.py[line:45]INFO - hello
-09/09/2022 09:56:45 AM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
-09/09/2022 09:56:45 AM rcomm.py[line:72]INFO - ruijunfeng-PC
-09/09/2022 09:56:45 AM rcomm.py[line:74]INFO - hello m3
-09/09/2022 09:56:45 AM rcomm.py[line:51]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1FIK-if00-port0
-09/09/2022 09:56:46 AM rcomm.py[line:111]DEBUG - dev: Y opened
-09/09/2022 09:56:46 AM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
-09/09/2022 09:56:46 AM rcomm.py[line:218]DEBUG - flush Y
-09/09/2022 09:56:46 AM daemon.py[line:93]INFO - gui msg: {'req': {'device': 'd', 'cabinet': '1', 'slots': '101,100', 'command': 'gravity'}}
-09/09/2022 09:56:46 AM daemon.py[line:97]ERROR - failed to process json: 'Daemon' object has no attribute 'process_device_d'
-09/09/2022 09:56:46 AM daemon.py[line:740]INFO - b'lg\x06R'
-09/09/2022 09:56:46 AM rcomm.py[line:218]DEBUG - flush Y
-09/09/2022 09:56:47 AM daemon.py[line:749]ERROR - no ack
-09/09/2022 09:56:47 AM daemon.py[line:740]INFO - b'lg\x06R'
-09/09/2022 09:56:47 AM rcomm.py[line:218]DEBUG - flush Y
-09/09/2022 09:56:48 AM daemon.py[line:749]ERROR - no ack
-09/09/2022 09:56:48 AM daemon.py[line:740]INFO - b'lg\x06R'
-09/09/2022 09:56:48 AM rcomm.py[line:218]DEBUG - flush Y
-09/09/2022 09:56:48 AM daemon.py[line:749]ERROR - no ack
-09/09/2022 09:56:48 AM daemon.py[line:77]INFO - hello beans_control
-09/09/2022 09:56:50 AM daemon.py[line:93]INFO - gui msg: {'req': {'device': 'd', 'cabinet': '1', 'slots': '101,100', 'command': 'gravity'}}
-09/09/2022 09:56:50 AM daemon.py[line:97]ERROR - failed to process json: 'Daemon' object has no attribute 'process_device_d'
-09/09/2022 09:56:51 AM daemon.py[line:93]INFO - gui msg: {'req': {'device': 'd', 'cabinet': '1', 'slots': '101,100', 'command': 'gravity'}}
-09/09/2022 09:56:51 AM daemon.py[line:97]ERROR - failed to process json: 'Daemon' object has no attribute 'process_device_d'
+02/10/2023 05:31:24 PM daemon.py[line:46]INFO - hello
+02/10/2023 05:31:24 PM daemon.py[line:47]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+02/10/2023 05:31:24 PM rcomm.py[line:71]INFO - ruijunfeng-PC
+02/10/2023 05:31:24 PM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+02/10/2023 05:31:25 PM rcomm.py[line:119]DEBUG - dev: Y opened
+02/10/2023 05:31:25 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:31:25 PM daemon.py[line:902]INFO - b'lg\x06R'
+02/10/2023 05:31:25 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:31:25 PM daemon.py[line:911]ERROR - no ack
+02/10/2023 05:31:26 PM daemon.py[line:902]INFO - b'lg\x06R'
+02/10/2023 05:31:26 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:31:26 PM daemon.py[line:911]ERROR - no ack
+02/10/2023 05:31:26 PM daemon.py[line:902]INFO - b'lg\x06R'
+02/10/2023 05:31:26 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:31:27 PM daemon.py[line:911]ERROR - no ack
+02/10/2023 05:31:27 PM daemon.py[line:83]INFO - hello beans_control
+02/10/2023 05:31:57 PM serv.py[line:40]INFO - start
+02/10/2023 05:31:57 PM daemon.py[line:99]INFO - gui msg: {'req': {'device': 'm3', 'id': '10', 'command': 'hi'}}
+02/10/2023 05:31:57 PM daemon.py[line:103]ERROR - failed to process json: name 'id_' is not defined
+02/10/2023 05:31:57 PM serv.py[line:42]INFO - stop
+02/10/2023 05:35:10 PM daemon.py[line:46]INFO - hello
+02/10/2023 05:35:10 PM daemon.py[line:47]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+02/10/2023 05:35:10 PM rcomm.py[line:71]INFO - ruijunfeng-PC
+02/10/2023 05:35:10 PM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+02/10/2023 05:35:10 PM rcomm.py[line:119]DEBUG - dev: Y opened
+02/10/2023 05:35:10 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:35:10 PM daemon.py[line:909]INFO - b'lg\x06R'
+02/10/2023 05:35:10 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:35:11 PM daemon.py[line:918]ERROR - no ack
+02/10/2023 05:35:11 PM daemon.py[line:909]INFO - b'lg\x06R'
+02/10/2023 05:35:11 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:35:11 PM daemon.py[line:918]ERROR - no ack
+02/10/2023 05:35:11 PM daemon.py[line:909]INFO - b'lg\x06R'
+02/10/2023 05:35:11 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:35:12 PM daemon.py[line:918]ERROR - no ack
+02/10/2023 05:35:12 PM daemon.py[line:83]INFO - hello beans_control
+02/10/2023 05:35:13 PM serv.py[line:40]INFO - start
+02/10/2023 05:35:13 PM daemon.py[line:99]INFO - gui msg: {'req': {'device': 'm3', 'command': 'hi', 'id': '10'}}
+02/10/2023 05:35:13 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'device': 'd', 'result': 'success', 'id': '10'}}
+02/10/2023 05:35:13 PM serv.py[line:42]INFO - stop
+02/10/2023 05:35:15 PM serv.py[line:40]INFO - start
+02/10/2023 05:35:15 PM daemon.py[line:99]INFO - gui msg: {'req': {'device': 'm3', 'command': 'hi', 'id': '10'}}
+02/10/2023 05:35:15 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'device': 'd', 'result': 'success', 'id': '10'}}
+02/10/2023 05:35:15 PM serv.py[line:42]INFO - stop
+02/10/2023 05:35:15 PM serv.py[line:40]INFO - start
+02/10/2023 05:35:15 PM daemon.py[line:99]INFO - gui msg: {'req': {'device': 'm3', 'command': 'hi', 'id': '10'}}
+02/10/2023 05:35:15 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'device': 'd', 'result': 'success', 'id': '10'}}
+02/10/2023 05:35:15 PM serv.py[line:42]INFO - stop
+02/10/2023 05:35:16 PM serv.py[line:40]INFO - start
+02/10/2023 05:35:16 PM daemon.py[line:99]INFO - gui msg: {'req': {'device': 'm3', 'command': 'hi', 'id': '10'}}
+02/10/2023 05:35:16 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'device': 'd', 'result': 'success', 'id': '10'}}
+02/10/2023 05:35:16 PM serv.py[line:42]INFO - stop
+02/10/2023 05:35:16 PM serv.py[line:40]INFO - start
+02/10/2023 05:35:16 PM daemon.py[line:99]INFO - gui msg: {'req': {'device': 'm3', 'command': 'hi', 'id': '10'}}
+02/10/2023 05:35:16 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'device': 'd', 'result': 'success', 'id': '10'}}
+02/10/2023 05:35:16 PM serv.py[line:42]INFO - stop
+02/10/2023 05:35:17 PM serv.py[line:40]INFO - start
+02/10/2023 05:35:17 PM daemon.py[line:99]INFO - gui msg: {'req': {'device': 'm3', 'command': 'hi', 'id': '10'}}
+02/10/2023 05:35:17 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'device': 'd', 'result': 'success', 'id': '10'}}
+02/10/2023 05:35:17 PM serv.py[line:42]INFO - stop
+02/10/2023 05:35:17 PM serv.py[line:40]INFO - start
+02/10/2023 05:35:17 PM daemon.py[line:99]INFO - gui msg: {'req': {'device': 'm3', 'command': 'hi', 'id': '10'}}
+02/10/2023 05:35:17 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'device': 'd', 'result': 'success', 'id': '10'}}
+02/10/2023 05:35:17 PM serv.py[line:42]INFO - stop
+02/10/2023 05:35:17 PM serv.py[line:40]INFO - start
+02/10/2023 05:35:17 PM daemon.py[line:99]INFO - gui msg: {'req': {'device': 'm3', 'command': 'hi', 'id': '10'}}
+02/10/2023 05:35:17 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'device': 'd', 'result': 'success', 'id': '10'}}
+02/10/2023 05:35:17 PM serv.py[line:42]INFO - stop
+02/10/2023 05:35:18 PM serv.py[line:40]INFO - start
+02/10/2023 05:35:18 PM daemon.py[line:99]INFO - gui msg: {'req': {'device': 'm3', 'command': 'hi', 'id': '10'}}
+02/10/2023 05:35:18 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'device': 'd', 'result': 'success', 'id': '10'}}
+02/10/2023 05:35:18 PM serv.py[line:42]INFO - stop
+02/10/2023 05:37:58 PM daemon.py[line:46]INFO - hello
+02/10/2023 05:37:58 PM daemon.py[line:47]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+02/10/2023 05:37:58 PM rcomm.py[line:71]INFO - ruijunfeng-PC
+02/10/2023 05:37:58 PM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+02/10/2023 05:37:58 PM rcomm.py[line:119]DEBUG - dev: Y opened
+02/10/2023 05:37:58 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:37:58 PM daemon.py[line:910]INFO - b'lg\x06R'
+02/10/2023 05:37:58 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:37:59 PM daemon.py[line:919]ERROR - no ack
+02/10/2023 05:37:59 PM daemon.py[line:910]INFO - b'lg\x06R'
+02/10/2023 05:37:59 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:38:00 PM daemon.py[line:919]ERROR - no ack
+02/10/2023 05:38:00 PM daemon.py[line:910]INFO - b'lg\x06R'
+02/10/2023 05:38:00 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:38:00 PM daemon.py[line:919]ERROR - no ack
+02/10/2023 05:38:00 PM daemon.py[line:83]INFO - hello beans_control
+02/10/2023 05:38:01 PM serv.py[line:40]INFO - start
+02/10/2023 05:38:01 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'device': 'm3', 'command': 'hi'}}
+02/10/2023 05:38:01 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'id': '10', 'device': 'd', 'result': 'success'}}
+02/10/2023 05:38:01 PM serv.py[line:42]INFO - stop
+02/10/2023 05:38:27 PM serv.py[line:40]INFO - start
+02/10/2023 05:38:27 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'device': 'm3', 'command': 'get_res_id'}}
+02/10/2023 05:38:27 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'id': '10', 'device': 'd', 'result': 'success'}}
+02/10/2023 05:38:27 PM serv.py[line:42]INFO - stop
+02/10/2023 05:38:30 PM serv.py[line:40]INFO - start
+02/10/2023 05:38:30 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'device': 'm3', 'command': 'get_res_id'}}
+02/10/2023 05:38:30 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'id': '10', 'device': 'd', 'result': 'success'}}
+02/10/2023 05:38:30 PM serv.py[line:42]INFO - stop
+02/10/2023 05:38:34 PM serv.py[line:40]INFO - start
+02/10/2023 05:38:34 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '9', 'device': 'm3', 'command': 'hi'}}
+02/10/2023 05:38:34 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'id': '9', 'device': 'd', 'result': 'success'}}
+02/10/2023 05:38:34 PM serv.py[line:42]INFO - stop
+02/10/2023 05:38:36 PM serv.py[line:40]INFO - start
+02/10/2023 05:38:36 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'device': 'm3', 'command': 'get_res_id'}}
+02/10/2023 05:38:36 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'id': '10', 'device': 'd', 'result': 'success'}}
+02/10/2023 05:38:36 PM serv.py[line:42]INFO - stop
+02/10/2023 05:38:59 PM serv.py[line:40]INFO - start
+02/10/2023 05:38:59 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '9', 'device': 'm3', 'command': 'hi'}}
+02/10/2023 05:38:59 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'id': '9', 'device': 'd', 'result': 'success'}}
+02/10/2023 05:38:59 PM serv.py[line:42]INFO - stop
+02/10/2023 05:39:01 PM serv.py[line:40]INFO - start
+02/10/2023 05:39:01 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'device': 'm3', 'command': 'get_res_id'}}
+02/10/2023 05:39:01 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'id': '10', 'device': 'd', 'result': 'success'}}
+02/10/2023 05:39:01 PM serv.py[line:42]INFO - stop
+02/10/2023 05:39:35 PM daemon.py[line:46]INFO - hello
+02/10/2023 05:39:35 PM daemon.py[line:47]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+02/10/2023 05:39:35 PM rcomm.py[line:71]INFO - ruijunfeng-PC
+02/10/2023 05:39:35 PM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+02/10/2023 05:39:35 PM rcomm.py[line:119]DEBUG - dev: Y opened
+02/10/2023 05:39:35 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:39:35 PM daemon.py[line:910]INFO - b'lg\x06R'
+02/10/2023 05:39:35 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:39:36 PM daemon.py[line:919]ERROR - no ack
+02/10/2023 05:39:36 PM daemon.py[line:910]INFO - b'lg\x06R'
+02/10/2023 05:39:36 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:39:36 PM daemon.py[line:919]ERROR - no ack
+02/10/2023 05:39:37 PM daemon.py[line:910]INFO - b'lg\x06R'
+02/10/2023 05:39:37 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:39:37 PM daemon.py[line:919]ERROR - no ack
+02/10/2023 05:39:37 PM daemon.py[line:83]INFO - hello beans_control
+02/10/2023 05:39:39 PM serv.py[line:40]INFO - start
+02/10/2023 05:39:39 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '9', 'command': 'hi', 'device': 'm3'}}
+02/10/2023 05:39:39 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'result': 'success', 'id': '9', 'device': 'd'}}
+02/10/2023 05:39:39 PM serv.py[line:42]INFO - stop
+02/10/2023 05:39:41 PM serv.py[line:40]INFO - start
+02/10/2023 05:39:41 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'command': 'get_res_id', 'device': 'm3'}}
+02/10/2023 05:39:41 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'result': 'success', 'id': '10', 'sid': '9', 'device': 'd'}}
+02/10/2023 05:39:41 PM serv.py[line:42]INFO - stop
+02/10/2023 05:39:42 PM serv.py[line:40]INFO - start
+02/10/2023 05:39:42 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'command': 'get_res_id', 'device': 'm3'}}
+02/10/2023 05:39:42 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'result': 'success', 'id': '10', 'sid': '9', 'device': 'd'}}
+02/10/2023 05:39:42 PM serv.py[line:42]INFO - stop
+02/10/2023 05:39:43 PM serv.py[line:40]INFO - start
+02/10/2023 05:39:43 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'command': 'get_res_id', 'device': 'm3'}}
+02/10/2023 05:39:43 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'result': 'success', 'id': '10', 'sid': '9', 'device': 'd'}}
+02/10/2023 05:39:43 PM serv.py[line:42]INFO - stop
+02/10/2023 05:39:44 PM serv.py[line:40]INFO - start
+02/10/2023 05:39:44 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'command': 'get_res_id', 'device': 'm3'}}
+02/10/2023 05:39:44 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'result': 'success', 'id': '10', 'sid': '9', 'device': 'd'}}
+02/10/2023 05:39:44 PM serv.py[line:42]INFO - stop
+02/10/2023 05:39:45 PM serv.py[line:40]INFO - start
+02/10/2023 05:39:45 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'command': 'get_res_id', 'device': 'm3'}}
+02/10/2023 05:39:45 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'result': 'success', 'id': '10', 'sid': '9', 'device': 'd'}}
+02/10/2023 05:39:45 PM serv.py[line:42]INFO - stop
+02/10/2023 05:40:13 PM daemon.py[line:46]INFO - hello
+02/10/2023 05:40:13 PM daemon.py[line:47]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+02/10/2023 05:40:13 PM rcomm.py[line:71]INFO - ruijunfeng-PC
+02/10/2023 05:40:13 PM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+02/10/2023 05:40:13 PM rcomm.py[line:119]DEBUG - dev: Y opened
+02/10/2023 05:40:13 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:40:13 PM daemon.py[line:910]INFO - b'lg\x06R'
+02/10/2023 05:40:13 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:40:13 PM daemon.py[line:919]ERROR - no ack
+02/10/2023 05:40:13 PM daemon.py[line:910]INFO - b'lg\x06R'
+02/10/2023 05:40:13 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:40:14 PM daemon.py[line:919]ERROR - no ack
+02/10/2023 05:40:14 PM daemon.py[line:910]INFO - b'lg\x06R'
+02/10/2023 05:40:14 PM rcomm.py[line:191]DEBUG - flush Y
+02/10/2023 05:40:15 PM daemon.py[line:919]ERROR - no ack
+02/10/2023 05:40:15 PM daemon.py[line:83]INFO - hello beans_control
+02/10/2023 05:40:17 PM serv.py[line:40]INFO - start
+02/10/2023 05:40:17 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'device': 'm3', 'command': 'get_res_id'}}
+02/10/2023 05:40:17 PM daemon.py[line:103]ERROR - failed to process json: list index out of range
+02/10/2023 05:40:17 PM serv.py[line:42]INFO - stop
+02/10/2023 05:40:53 PM serv.py[line:40]INFO - start
+02/10/2023 05:40:53 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '9', 'device': 'm3', 'command': 'hi'}}
+02/10/2023 05:40:53 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'result': 'success', 'id': '9', 'device': 'd'}}
+02/10/2023 05:40:53 PM serv.py[line:42]INFO - stop
+02/10/2023 05:40:54 PM serv.py[line:40]INFO - start
+02/10/2023 05:40:54 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '9', 'device': 'm3', 'command': 'hi'}}
+02/10/2023 05:40:54 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'result': 'success', 'id': '9', 'device': 'd'}}
+02/10/2023 05:40:54 PM serv.py[line:42]INFO - stop
+02/10/2023 05:40:54 PM serv.py[line:40]INFO - start
+02/10/2023 05:40:54 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '9', 'device': 'm3', 'command': 'hi'}}
+02/10/2023 05:40:54 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'result': 'success', 'id': '9', 'device': 'd'}}
+02/10/2023 05:40:54 PM serv.py[line:42]INFO - stop
+02/10/2023 05:40:54 PM serv.py[line:40]INFO - start
+02/10/2023 05:40:54 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '9', 'device': 'm3', 'command': 'hi'}}
+02/10/2023 05:40:54 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'result': 'success', 'id': '9', 'device': 'd'}}
+02/10/2023 05:40:54 PM serv.py[line:42]INFO - stop
+02/10/2023 05:40:56 PM serv.py[line:40]INFO - start
+02/10/2023 05:40:56 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'device': 'm3', 'command': 'get_res_id'}}
+02/10/2023 05:40:56 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'sid': '9', 'result': 'success', 'id': '10', 'device': 'd'}}
+02/10/2023 05:40:56 PM serv.py[line:42]INFO - stop
+02/10/2023 05:40:57 PM serv.py[line:40]INFO - start
+02/10/2023 05:40:57 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'device': 'm3', 'command': 'get_res_id'}}
+02/10/2023 05:40:57 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'sid': '9', 'result': 'success', 'id': '10', 'device': 'd'}}
+02/10/2023 05:40:57 PM serv.py[line:42]INFO - stop
+02/10/2023 05:40:57 PM serv.py[line:40]INFO - start
+02/10/2023 05:40:57 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'device': 'm3', 'command': 'get_res_id'}}
+02/10/2023 05:40:57 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'sid': '9', 'result': 'success', 'id': '10', 'device': 'd'}}
+02/10/2023 05:40:57 PM serv.py[line:42]INFO - stop
+02/10/2023 05:41:00 PM serv.py[line:40]INFO - start
+02/10/2023 05:41:00 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '9', 'device': 'm3', 'command': 'hi'}}
+02/10/2023 05:41:00 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'result': 'success', 'id': '9', 'device': 'd'}}
+02/10/2023 05:41:00 PM serv.py[line:42]INFO - stop
+02/10/2023 05:41:03 PM serv.py[line:40]INFO - start
+02/10/2023 05:41:03 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '8', 'device': 'm3', 'command': 'hi'}}
+02/10/2023 05:41:03 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'result': 'success', 'id': '8', 'device': 'd'}}
+02/10/2023 05:41:03 PM serv.py[line:42]INFO - stop
+02/10/2023 05:41:05 PM serv.py[line:40]INFO - start
+02/10/2023 05:41:05 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'device': 'm3', 'command': 'get_res_id'}}
+02/10/2023 05:41:05 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'sid': '8', 'result': 'success', 'id': '10', 'device': 'd'}}
+02/10/2023 05:41:05 PM serv.py[line:42]INFO - stop
+02/10/2023 05:41:07 PM serv.py[line:40]INFO - start
+02/10/2023 05:41:07 PM daemon.py[line:99]INFO - gui msg: {'req': {'id': '10', 'device': 'm3', 'command': 'get_res_id'}}
+02/10/2023 05:41:07 PM daemon.py[line:117]DEBUG - send_json -> {'rep': {'sid': '8', 'result': 'success', 'id': '10', 'device': 'd'}}
+02/10/2023 05:41:07 PM serv.py[line:42]INFO - stop
+02/10/2023 05:50:15 PM serv.py[line:50]INFO - serv heatbeat
+02/10/2023 06:00:15 PM serv.py[line:50]INFO - serv heatbeat
+02/10/2023 06:10:15 PM serv.py[line:50]INFO - serv heatbeat
+02/10/2023 06:20:15 PM serv.py[line:50]INFO - serv heatbeat
+02/10/2023 06:30:15 PM serv.py[line:50]INFO - serv heatbeat
+02/10/2023 06:40:15 PM serv.py[line:50]INFO - serv heatbeat
+02/10/2023 10:02:01 PM serv.py[line:50]INFO - serv heatbeat
+02/10/2023 10:02:02 PM rcomm.py[line:147]INFO - read: Y
+02/10/2023 10:02:02 PM rcomm.py[line:154]ERROR - failed to read dev: Y as [Errno 5] Input/output error
+02/10/2023 10:02:02 PM rcomm.py[line:123]ERROR - failed to open device: Y as [Errno 2] could not open port /dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0'

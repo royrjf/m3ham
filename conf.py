@@ -34,6 +34,5 @@ protocol:
 """
 
 DEV_LIST = [
-    {'name': 'Y', 'dev_name': '/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DO02GMY1-if00-port0','type': 'RS485', 'baud': 115200,'timeout': 3, 'DOC': ac_doc},  
-    {'name': 'AC', 'dev_name': '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0', 'type': 'TTL232', 'baud': 9600, 'timeout': 5, 'DOC': ac_doc}
+    {'name': 'Y', 'dev_name': '/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B37JZ-if00-port0','type': 'RS485', 'baud': 115200,'timeout': 3, 'DOC': ac_doc}
 ]

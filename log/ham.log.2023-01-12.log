@@ -1,0 +1,175 @@
+01/12/2023 06:52:11 PM daemon.py[line:45]INFO - hello
+01/12/2023 06:52:11 PM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+01/12/2023 06:52:11 PM rcomm.py[line:71]INFO - ruijunfeng-PC
+01/12/2023 06:52:11 PM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+01/12/2023 06:52:12 PM rcomm.py[line:110]DEBUG - dev: Y opened
+01/12/2023 06:52:12 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:52:12 PM daemon.py[line:877]INFO - b'lg\x06R'
+01/12/2023 06:52:12 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:52:13 PM daemon.py[line:886]ERROR - no ack
+01/12/2023 06:52:13 PM daemon.py[line:877]INFO - b'lg\x06R'
+01/12/2023 06:52:13 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:52:13 PM daemon.py[line:886]ERROR - no ack
+01/12/2023 06:52:14 PM daemon.py[line:877]INFO - b'lg\x06R'
+01/12/2023 06:52:14 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:52:14 PM daemon.py[line:886]ERROR - no ack
+01/12/2023 06:52:14 PM daemon.py[line:79]INFO - hello beans_control
+01/12/2023 06:52:46 PM serv.py[line:40]INFO - start
+01/12/2023 06:52:46 PM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'pvb_version', 'device': 'm3', 'delay': '1', 'board': 'beans'}}
+01/12/2023 06:52:46 PM daemon.py[line:113]DEBUG - send_json -> None
+01/12/2023 06:52:46 PM serv.py[line:42]INFO - stop
+01/12/2023 06:52:52 PM serv.py[line:40]INFO - start
+01/12/2023 06:52:52 PM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'pcb_version', 'device': 'm3', 'delay': '1', 'board': 'beans'}}
+01/12/2023 06:52:52 PM daemon.py[line:1213]INFO - b"OV\xc1'"
+01/12/2023 06:52:52 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:52:52 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 06:52:52 PM rcomm.py[line:142]INFO - data -> b'Ov1.1s\xe0'
+01/12/2023 06:52:52 PM daemon.py[line:1217]DEBUG - r -> b'Ov1.1s\xe0'
+01/12/2023 06:52:52 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'v1.1'}}
+01/12/2023 06:52:52 PM serv.py[line:42]INFO - stop
+01/12/2023 06:52:54 PM serv.py[line:40]INFO - start
+01/12/2023 06:52:54 PM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'pcb_version', 'device': 'm3', 'delay': '1', 'board': 'beans'}}
+01/12/2023 06:52:54 PM daemon.py[line:1213]INFO - b"OV\xc1'"
+01/12/2023 06:52:54 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:52:54 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 06:52:54 PM rcomm.py[line:142]INFO - data -> b'Ov1.1s\xe0'
+01/12/2023 06:52:54 PM daemon.py[line:1217]DEBUG - r -> b'Ov1.1s\xe0'
+01/12/2023 06:52:54 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'v1.1'}}
+01/12/2023 06:52:54 PM serv.py[line:42]INFO - stop
+01/12/2023 06:52:55 PM serv.py[line:40]INFO - start
+01/12/2023 06:52:55 PM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'pcb_version', 'device': 'm3', 'delay': '1', 'board': 'beans'}}
+01/12/2023 06:52:55 PM daemon.py[line:1213]INFO - b"OV\xc1'"
+01/12/2023 06:52:55 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:52:55 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 06:52:55 PM rcomm.py[line:142]INFO - data -> b'Ov1.1s\xe0'
+01/12/2023 06:52:55 PM daemon.py[line:1217]DEBUG - r -> b'Ov1.1s\xe0'
+01/12/2023 06:52:55 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'v1.1'}}
+01/12/2023 06:52:55 PM serv.py[line:42]INFO - stop
+01/12/2023 06:52:55 PM serv.py[line:40]INFO - start
+01/12/2023 06:52:55 PM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'pcb_version', 'device': 'm3', 'delay': '1', 'board': 'beans'}}
+01/12/2023 06:52:55 PM daemon.py[line:1213]INFO - b"OV\xc1'"
+01/12/2023 06:52:55 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:52:55 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 06:52:56 PM rcomm.py[line:142]INFO - data -> b'Ov1.1s\xe0'
+01/12/2023 06:52:56 PM daemon.py[line:1217]DEBUG - r -> b'Ov1.1s\xe0'
+01/12/2023 06:52:56 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'v1.1'}}
+01/12/2023 06:52:56 PM serv.py[line:42]INFO - stop
+01/12/2023 06:52:56 PM serv.py[line:40]INFO - start
+01/12/2023 06:52:56 PM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'pcb_version', 'device': 'm3', 'delay': '1', 'board': 'beans'}}
+01/12/2023 06:52:56 PM daemon.py[line:1213]INFO - b"OV\xc1'"
+01/12/2023 06:52:56 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:52:56 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 06:52:56 PM rcomm.py[line:142]INFO - data -> b'Ov1.1s\xe0'
+01/12/2023 06:52:56 PM daemon.py[line:1217]DEBUG - r -> b'Ov1.1s\xe0'
+01/12/2023 06:52:56 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'v1.1'}}
+01/12/2023 06:52:56 PM serv.py[line:42]INFO - stop
+01/12/2023 06:52:57 PM serv.py[line:40]INFO - start
+01/12/2023 06:52:57 PM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'pcb_version', 'device': 'm3', 'delay': '1', 'board': 'beans'}}
+01/12/2023 06:52:57 PM daemon.py[line:1213]INFO - b"OV\xc1'"
+01/12/2023 06:52:57 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:52:57 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 06:52:57 PM rcomm.py[line:142]INFO - data -> b'Ov1.1s\xe0'
+01/12/2023 06:52:57 PM daemon.py[line:1217]DEBUG - r -> b'Ov1.1s\xe0'
+01/12/2023 06:52:57 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'v1.1'}}
+01/12/2023 06:52:57 PM serv.py[line:42]INFO - stop
+01/12/2023 06:52:58 PM serv.py[line:40]INFO - start
+01/12/2023 06:52:58 PM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'pcb_version', 'device': 'm3', 'delay': '1', 'board': 'beans'}}
+01/12/2023 06:52:58 PM daemon.py[line:1213]INFO - b"OV\xc1'"
+01/12/2023 06:52:58 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:52:58 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 06:52:58 PM rcomm.py[line:142]INFO - data -> b'Ov1.1s\xe0'
+01/12/2023 06:52:58 PM daemon.py[line:1217]DEBUG - r -> b'Ov1.1s\xe0'
+01/12/2023 06:52:58 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'v1.1'}}
+01/12/2023 06:52:58 PM serv.py[line:42]INFO - stop
+01/12/2023 06:52:59 PM serv.py[line:40]INFO - start
+01/12/2023 06:52:59 PM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'pcb_version', 'device': 'm3', 'delay': '1', 'board': 'beans'}}
+01/12/2023 06:52:59 PM daemon.py[line:1213]INFO - b"OV\xc1'"
+01/12/2023 06:52:59 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:52:59 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 06:52:59 PM rcomm.py[line:142]INFO - data -> b'Ov1.1s\xe0'
+01/12/2023 06:52:59 PM daemon.py[line:1217]DEBUG - r -> b'Ov1.1s\xe0'
+01/12/2023 06:52:59 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'v1.1'}}
+01/12/2023 06:52:59 PM serv.py[line:42]INFO - stop
+01/12/2023 06:53:00 PM serv.py[line:40]INFO - start
+01/12/2023 06:53:00 PM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'pcb_version', 'device': 'm3', 'delay': '1', 'board': 'beans'}}
+01/12/2023 06:53:00 PM daemon.py[line:1213]INFO - b"OV\xc1'"
+01/12/2023 06:53:00 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:53:00 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 06:53:00 PM rcomm.py[line:142]INFO - data -> b'Ov1.1s\xe0'
+01/12/2023 06:53:00 PM daemon.py[line:1217]DEBUG - r -> b'Ov1.1s\xe0'
+01/12/2023 06:53:00 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'v1.1'}}
+01/12/2023 06:53:00 PM serv.py[line:42]INFO - stop
+01/12/2023 06:53:01 PM serv.py[line:40]INFO - start
+01/12/2023 06:53:01 PM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'pcb_version', 'device': 'm3', 'delay': '1', 'board': 'beans'}}
+01/12/2023 06:53:01 PM daemon.py[line:1213]INFO - b"OV\xc1'"
+01/12/2023 06:53:01 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:53:01 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 06:53:01 PM rcomm.py[line:142]INFO - data -> b'Ov1.1s\xe0'
+01/12/2023 06:53:01 PM daemon.py[line:1217]DEBUG - r -> b'Ov1.1s\xe0'
+01/12/2023 06:53:01 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'v1.1'}}
+01/12/2023 06:53:01 PM serv.py[line:42]INFO - stop
+01/12/2023 06:53:02 PM serv.py[line:40]INFO - start
+01/12/2023 06:53:02 PM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'pcb_version', 'device': 'm3', 'delay': '1', 'board': 'beans'}}
+01/12/2023 06:53:02 PM daemon.py[line:1213]INFO - b"OV\xc1'"
+01/12/2023 06:53:02 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:53:02 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 06:53:03 PM rcomm.py[line:142]INFO - data -> b'Ov1.1s\xe0'
+01/12/2023 06:53:03 PM daemon.py[line:1217]DEBUG - r -> b'Ov1.1s\xe0'
+01/12/2023 06:53:03 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'v1.1'}}
+01/12/2023 06:53:03 PM serv.py[line:42]INFO - stop
+01/12/2023 06:58:05 PM daemon.py[line:45]INFO - hello
+01/12/2023 06:58:05 PM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+01/12/2023 06:58:06 PM rcomm.py[line:71]INFO - ruijunfeng-PC
+01/12/2023 06:58:06 PM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+01/12/2023 06:58:06 PM rcomm.py[line:110]DEBUG - dev: Y opened
+01/12/2023 06:58:06 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:58:06 PM daemon.py[line:877]INFO - b'lg\x06R'
+01/12/2023 06:58:06 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:58:06 PM daemon.py[line:886]ERROR - no ack
+01/12/2023 06:58:07 PM daemon.py[line:877]INFO - b'lg\x06R'
+01/12/2023 06:58:07 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:58:07 PM daemon.py[line:886]ERROR - no ack
+01/12/2023 06:58:07 PM daemon.py[line:877]INFO - b'lg\x06R'
+01/12/2023 06:58:07 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:58:08 PM daemon.py[line:886]ERROR - no ack
+01/12/2023 06:58:08 PM daemon.py[line:79]INFO - hello beans_control
+01/12/2023 06:58:09 PM serv.py[line:40]INFO - start
+01/12/2023 06:58:09 PM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'board': 'beans', 'command': 'pcb_version', 'device': 'm3'}}
+01/12/2023 06:58:09 PM daemon.py[line:1213]INFO - b"OV\xc1'"
+01/12/2023 06:58:09 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 06:58:09 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 06:58:09 PM rcomm.py[line:142]INFO - data -> b'Ov1.3 stable\x1a\xc5'
+01/12/2023 06:58:09 PM daemon.py[line:1217]DEBUG - r -> b'Ov1.3 stable\x1a\xc5'
+01/12/2023 06:58:09 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'v1.3', 'device': 'm3'}}
+01/12/2023 06:58:09 PM serv.py[line:42]INFO - stop
+01/12/2023 06:59:14 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 06:59:14 PM rcomm.py[line:142]INFO - data -> b'ORok\x05L'
+01/12/2023 06:59:14 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 06:59:14 PM rcomm.py[line:142]INFO - data -> b'enter bootloader'
+01/12/2023 06:59:16 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 06:59:16 PM rcomm.py[line:142]INFO - data -> b'ram execution......\r\n\n'
+01/12/2023 07:11:23 PM daemon.py[line:45]INFO - hello
+01/12/2023 07:11:23 PM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+01/12/2023 07:11:23 PM rcomm.py[line:71]INFO - ruijunfeng-PC
+01/12/2023 07:11:23 PM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+01/12/2023 07:11:23 PM rcomm.py[line:110]DEBUG - dev: Y opened
+01/12/2023 07:11:23 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 07:11:23 PM daemon.py[line:877]INFO - b'lg\x06R'
+01/12/2023 07:11:23 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 07:11:24 PM daemon.py[line:886]ERROR - no ack
+01/12/2023 07:11:24 PM daemon.py[line:877]INFO - b'lg\x06R'
+01/12/2023 07:11:24 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 07:11:25 PM daemon.py[line:886]ERROR - no ack
+01/12/2023 07:11:25 PM daemon.py[line:877]INFO - b'lg\x06R'
+01/12/2023 07:11:25 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 07:11:25 PM daemon.py[line:886]ERROR - no ack
+01/12/2023 07:11:25 PM daemon.py[line:79]INFO - hello beans_control
+01/12/2023 07:11:26 PM serv.py[line:40]INFO - start
+01/12/2023 07:11:26 PM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'pcb_version', 'delay': '1', 'device': 'm3', 'board': 'beans'}}
+01/12/2023 07:11:26 PM daemon.py[line:1213]INFO - b"OV\xc1'"
+01/12/2023 07:11:26 PM rcomm.py[line:192]DEBUG - flush Y
+01/12/2023 07:11:26 PM rcomm.py[line:138]INFO - read: Y
+01/12/2023 07:11:26 PM rcomm.py[line:142]INFO - data -> b'Ov1.41 add usart dma init,usart init\xde\xc7'
+01/12/2023 07:11:26 PM daemon.py[line:1217]DEBUG - r -> b'Ov1.41 add usart dma init,usart init\xde\xc7'
+01/12/2023 07:11:26 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'v1.4'}}
+01/12/2023 07:11:26 PM serv.py[line:42]INFO - stop

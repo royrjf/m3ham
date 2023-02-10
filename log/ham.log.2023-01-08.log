@@ -1,0 +1,368 @@
+01/08/2023 12:04:54 AM daemon.py[line:45]INFO - hello
+01/08/2023 12:04:54 AM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+01/08/2023 12:04:54 AM rcomm.py[line:71]INFO - ruijunfeng-PC
+01/08/2023 12:04:54 AM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+01/08/2023 12:04:55 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:04:55 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:04:55 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:04:56 AM daemon.py[line:858]INFO - b'lg\x06R'
+01/08/2023 12:04:56 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:04:56 AM daemon.py[line:867]ERROR - no ack
+01/08/2023 12:04:56 AM daemon.py[line:858]INFO - b'lg\x06R'
+01/08/2023 12:04:56 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:04:56 AM rcomm.py[line:200]ERROR - failed to flush Y -> (4, 'Interrupted system call')
+01/08/2023 12:04:56 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:04:56 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:04:57 AM daemon.py[line:867]ERROR - no ack
+01/08/2023 12:04:57 AM daemon.py[line:858]INFO - b'lg\x06R'
+01/08/2023 12:04:57 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:04:58 AM daemon.py[line:867]ERROR - no ack
+01/08/2023 12:04:58 AM daemon.py[line:78]INFO - hello beans_control
+01/08/2023 12:06:45 AM serv.py[line:40]INFO - start
+01/08/2023 12:06:45 AM daemon.py[line:94]INFO - gui msg: {'req': {'command': 'lattice_led_control', 'led_ids': '101', 'device': 'm3', 'colour': [0, 0, 0]}}
+01/08/2023 12:06:45 AM daemon.py[line:739]INFO - b'lw-\x01\x00\x00\x00\x01\x11\xc0'
+01/08/2023 12:06:45 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:06:45 AM daemon.py[line:749]ERROR - no ack
+01/08/2023 12:06:45 AM daemon.py[line:112]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'error'}}
+01/08/2023 12:06:45 AM serv.py[line:42]INFO - stop
+01/08/2023 12:06:56 AM daemon.py[line:45]INFO - hello
+01/08/2023 12:06:56 AM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+01/08/2023 12:06:56 AM rcomm.py[line:71]INFO - ruijunfeng-PC
+01/08/2023 12:06:56 AM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+01/08/2023 12:06:56 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:06:56 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:06:56 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:06:56 AM daemon.py[line:859]INFO - b'lg\x06R'
+01/08/2023 12:06:56 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:06:57 AM daemon.py[line:868]ERROR - no ack
+01/08/2023 12:06:57 AM daemon.py[line:859]INFO - b'lg\x06R'
+01/08/2023 12:06:57 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:06:57 AM daemon.py[line:868]ERROR - no ack
+01/08/2023 12:06:58 AM daemon.py[line:859]INFO - b'lg\x06R'
+01/08/2023 12:06:58 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:06:58 AM daemon.py[line:868]ERROR - no ack
+01/08/2023 12:06:58 AM daemon.py[line:78]INFO - hello beans_control
+01/08/2023 12:07:01 AM serv.py[line:40]INFO - start
+01/08/2023 12:07:01 AM daemon.py[line:94]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'led_ids': '101', 'command': 'lattice_led_control', 'device': 'm3'}}
+01/08/2023 12:07:01 AM daemon.py[line:1725]INFO - b'OH>\xd4'
+01/08/2023 12:07:01 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:01 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:01 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:01 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:01 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:01 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:01 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:02 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:02 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:02 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:02 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:02 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:02 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:03 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:03 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:03 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:03 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:03 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:03 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:03 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:03 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:03 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:04 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:04 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:04 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:04 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:04 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:04 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:05 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:05 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:05 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:05 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:05 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:05 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:05 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:05 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:05 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:06 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:06 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:06 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:06 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:06 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:06 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:07 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:07 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:07 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:07 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:07 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:07 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:08 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:08 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:08 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:08 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:08 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:08 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:08 AM daemon.py[line:1749]INFO - try to reopen dev 	 times
+01/08/2023 12:07:08 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:08 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:09 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:09 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:09 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:09 AM daemon.py[line:1749]INFO - try to reopen dev 
+ times
+01/08/2023 12:07:09 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:09 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:10 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:10 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:10 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:10 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:10 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:10 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:10 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:10 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:10 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:11 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:11 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:11 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:11 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:11 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:11 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:12 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:12 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:12 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:12 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:12 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:12 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:13 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:13 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:13 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:13 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:13 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:13 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:13 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:13 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:13 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:14 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:14 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:14 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:14 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:14 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:14 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:15 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:15 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:15 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:15 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:15 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:15 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:15 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:16 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:16 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:16 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:16 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:16 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:16 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:07:16 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:07:16 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:07:17 AM daemon.py[line:1749]INFO - try to reopen dev  times
+01/08/2023 12:07:17 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:07:17 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:07:17 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:08:52 AM daemon.py[line:45]INFO - hello
+01/08/2023 12:08:52 AM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+01/08/2023 12:08:52 AM rcomm.py[line:71]INFO - ruijunfeng-PC
+01/08/2023 12:08:52 AM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+01/08/2023 12:08:54 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:08:54 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:08:54 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:08:54 AM daemon.py[line:859]INFO - b'lg\x06R'
+01/08/2023 12:08:54 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:08:54 AM daemon.py[line:868]ERROR - no ack
+01/08/2023 12:08:55 AM daemon.py[line:859]INFO - b'lg\x06R'
+01/08/2023 12:08:55 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:08:55 AM daemon.py[line:868]ERROR - no ack
+01/08/2023 12:08:55 AM daemon.py[line:859]INFO - b'lg\x06R'
+01/08/2023 12:08:55 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:08:56 AM daemon.py[line:868]ERROR - no ack
+01/08/2023 12:08:56 AM daemon.py[line:78]INFO - hello beans_control
+01/08/2023 12:08:57 AM daemon.py[line:45]INFO - hello
+01/08/2023 12:08:57 AM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+01/08/2023 12:08:57 AM rcomm.py[line:71]INFO - ruijunfeng-PC
+01/08/2023 12:08:57 AM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+01/08/2023 12:08:57 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:08:57 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:08:57 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:08:57 AM daemon.py[line:859]INFO - b'lg\x06R'
+01/08/2023 12:08:57 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:08:58 AM daemon.py[line:868]ERROR - no ack
+01/08/2023 12:08:58 AM daemon.py[line:859]INFO - b'lg\x06R'
+01/08/2023 12:08:58 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:08:58 AM daemon.py[line:868]ERROR - no ack
+01/08/2023 12:08:59 AM daemon.py[line:859]INFO - b'lg\x06R'
+01/08/2023 12:08:59 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:08:59 AM daemon.py[line:868]ERROR - no ack
+01/08/2023 12:08:59 AM daemon.py[line:78]INFO - hello beans_control
+01/08/2023 12:09:06 AM serv.py[line:40]INFO - start
+01/08/2023 12:09:06 AM daemon.py[line:94]INFO - gui msg: {'req': {'command': 'lattice_led_control', 'led_ids': '101', 'colour': [0, 0, 0], 'device': 'm3'}}
+01/08/2023 12:09:06 AM daemon.py[line:1725]INFO - b'OH>\xd4'
+01/08/2023 12:09:06 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:09:06 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:09:06 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:09:06 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:09:06 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:09:06 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:09:06 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:09:07 AM daemon.py[line:1749]INFO - try to reopen dev 1 times
+01/08/2023 12:09:07 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:09:07 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:09:07 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:09:07 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:09:07 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:09:08 AM daemon.py[line:1749]INFO - try to reopen dev 2 times
+01/08/2023 12:09:08 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:09:08 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:09:08 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:09:08 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:09:08 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:09:08 AM daemon.py[line:1749]INFO - try to reopen dev 3 times
+01/08/2023 12:09:08 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:09:08 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:09:09 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:09:09 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:09:09 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:09:09 AM daemon.py[line:1749]INFO - try to reopen dev 4 times
+01/08/2023 12:09:09 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:09:09 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:09:09 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:09:09 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:09:09 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:09:10 AM daemon.py[line:1749]INFO - try to reopen dev 5 times
+01/08/2023 12:09:10 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:09:10 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:09:10 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:09:10 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:09:10 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:09:11 AM daemon.py[line:1749]INFO - try to reopen dev 6 times
+01/08/2023 12:09:11 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:09:11 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:09:11 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:09:11 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:09:11 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:09:12 AM daemon.py[line:1749]INFO - try to reopen dev 7 times
+01/08/2023 12:09:12 AM daemon.py[line:1725]INFO - b'lH\x8b\x87'
+01/08/2023 12:09:12 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:09:12 AM daemon.py[line:1739]ERROR - no ack
+01/08/2023 12:09:12 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:09:12 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:38:01 AM daemon.py[line:45]INFO - hello
+01/08/2023 12:38:01 AM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+01/08/2023 12:38:01 AM rcomm.py[line:71]INFO - ruijunfeng-PC
+01/08/2023 12:38:01 AM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+01/08/2023 12:38:02 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:38:02 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:38:02 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:38:02 AM daemon.py[line:877]INFO - b'lg\x06R'
+01/08/2023 12:38:02 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:38:03 AM daemon.py[line:886]ERROR - no ack
+01/08/2023 12:38:03 AM daemon.py[line:877]INFO - b'lg\x06R'
+01/08/2023 12:38:03 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:38:04 AM daemon.py[line:886]ERROR - no ack
+01/08/2023 12:38:04 AM daemon.py[line:877]INFO - b'lg\x06R'
+01/08/2023 12:38:04 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:38:04 AM daemon.py[line:886]ERROR - no ack
+01/08/2023 12:38:04 AM daemon.py[line:79]INFO - hello beans_control
+01/08/2023 12:38:32 AM serv.py[line:40]INFO - start
+01/08/2023 12:38:32 AM daemon.py[line:95]INFO - gui msg: {'req': {'device': 'm3', 'led_ids': '101', 'colour': [0, 0, 0], 'command': 'reset_usart'}}
+01/08/2023 12:38:32 AM daemon.py[line:113]DEBUG - send_json -> None
+01/08/2023 12:38:32 AM serv.py[line:42]INFO - stop
+01/08/2023 12:39:03 AM daemon.py[line:45]INFO - hello
+01/08/2023 12:39:03 AM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+01/08/2023 12:39:03 AM rcomm.py[line:71]INFO - ruijunfeng-PC
+01/08/2023 12:39:03 AM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+01/08/2023 12:39:03 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:39:03 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:39:03 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:39:03 AM daemon.py[line:877]INFO - b'lg\x06R'
+01/08/2023 12:39:03 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:39:03 AM daemon.py[line:886]ERROR - no ack
+01/08/2023 12:39:04 AM daemon.py[line:877]INFO - b'lg\x06R'
+01/08/2023 12:39:04 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:39:04 AM daemon.py[line:886]ERROR - no ack
+01/08/2023 12:39:04 AM daemon.py[line:877]INFO - b'lg\x06R'
+01/08/2023 12:39:04 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:39:05 AM daemon.py[line:886]ERROR - no ack
+01/08/2023 12:39:05 AM daemon.py[line:79]INFO - hello beans_control
+01/08/2023 12:39:06 AM serv.py[line:40]INFO - start
+01/08/2023 12:39:06 AM daemon.py[line:95]INFO - gui msg: {'req': {'colour': [0, 0, 0], 'command': 'reset_usart', 'led_ids': '101', 'device': 'm3'}}
+01/08/2023 12:39:06 AM daemon.py[line:113]DEBUG - send_json -> None
+01/08/2023 12:39:06 AM serv.py[line:42]INFO - stop
+01/08/2023 12:49:03 AM serv.py[line:50]INFO - serv heatbeat
+01/08/2023 12:50:56 AM serv.py[line:40]INFO - start
+01/08/2023 12:50:56 AM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'reset_usart', 'device': 'm3'}}
+01/08/2023 12:50:56 AM daemon.py[line:113]DEBUG - send_json -> None
+01/08/2023 12:50:56 AM serv.py[line:42]INFO - stop
+01/08/2023 12:51:54 AM daemon.py[line:45]INFO - hello
+01/08/2023 12:51:54 AM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+01/08/2023 12:51:55 AM rcomm.py[line:71]INFO - ruijunfeng-PC
+01/08/2023 12:51:55 AM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+01/08/2023 12:51:55 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:51:55 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:51:55 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:51:55 AM daemon.py[line:878]INFO - b'lg\x06R'
+01/08/2023 12:51:55 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:51:55 AM daemon.py[line:887]ERROR - no ack
+01/08/2023 12:51:55 AM daemon.py[line:878]INFO - b'lg\x06R'
+01/08/2023 12:51:55 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:51:56 AM daemon.py[line:887]ERROR - no ack
+01/08/2023 12:51:56 AM daemon.py[line:878]INFO - b'lg\x06R'
+01/08/2023 12:51:56 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:51:57 AM daemon.py[line:887]ERROR - no ack
+01/08/2023 12:51:57 AM daemon.py[line:79]INFO - hello beans_control
+01/08/2023 12:51:57 AM serv.py[line:40]INFO - start
+01/08/2023 12:51:57 AM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'reset_usart', 'device': 'm3'}}
+01/08/2023 12:51:57 AM daemon.py[line:113]DEBUG - send_json -> None
+01/08/2023 12:51:57 AM serv.py[line:42]INFO - stop
+01/08/2023 12:52:02 AM serv.py[line:40]INFO - start
+01/08/2023 12:52:02 AM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'reset_usart', 'device': 'm3'}}
+01/08/2023 12:52:02 AM daemon.py[line:113]DEBUG - send_json -> None
+01/08/2023 12:52:02 AM serv.py[line:42]INFO - stop
+01/08/2023 12:52:29 AM daemon.py[line:45]INFO - hello
+01/08/2023 12:52:29 AM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+01/08/2023 12:52:29 AM rcomm.py[line:71]INFO - ruijunfeng-PC
+01/08/2023 12:52:29 AM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+01/08/2023 12:52:29 AM rcomm.py[line:110]DEBUG - dev: Y opened
+01/08/2023 12:52:29 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 12:52:29 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:52:29 AM daemon.py[line:877]INFO - b'lg\x06R'
+01/08/2023 12:52:29 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:52:29 AM daemon.py[line:886]ERROR - no ack
+01/08/2023 12:52:30 AM daemon.py[line:877]INFO - b'lg\x06R'
+01/08/2023 12:52:30 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:52:30 AM daemon.py[line:886]ERROR - no ack
+01/08/2023 12:52:30 AM daemon.py[line:877]INFO - b'lg\x06R'
+01/08/2023 12:52:30 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:52:31 AM daemon.py[line:886]ERROR - no ack
+01/08/2023 12:52:31 AM daemon.py[line:79]INFO - hello beans_control
+01/08/2023 12:52:32 AM serv.py[line:40]INFO - start
+01/08/2023 12:52:32 AM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'reset_usart', 'device': 'm3'}}
+01/08/2023 12:52:32 AM daemon.py[line:1825]INFO - b'OW\xe07'
+01/08/2023 12:52:32 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:52:32 AM daemon.py[line:1835]ERROR - no ack
+01/08/2023 12:52:32 AM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'error'}}
+01/08/2023 12:52:32 AM serv.py[line:42]INFO - stop
+01/08/2023 12:52:33 AM serv.py[line:40]INFO - start
+01/08/2023 12:52:33 AM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'reset_usart', 'device': 'm3'}}
+01/08/2023 12:52:33 AM daemon.py[line:1825]INFO - b'OW\xe07'
+01/08/2023 12:52:33 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:52:33 AM daemon.py[line:1835]ERROR - no ack
+01/08/2023 12:52:33 AM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'error'}}
+01/08/2023 12:52:33 AM serv.py[line:42]INFO - stop
+01/08/2023 12:52:45 AM serv.py[line:40]INFO - start
+01/08/2023 12:52:45 AM daemon.py[line:95]INFO - gui msg: {'req': {'command': 'reset_usart', 'device': 'm3'}}
+01/08/2023 12:52:45 AM daemon.py[line:1825]INFO - b'OW\xe07'
+01/08/2023 12:52:45 AM rcomm.py[line:192]DEBUG - flush Y
+01/08/2023 12:52:46 AM daemon.py[line:1835]ERROR - no ack
+01/08/2023 12:52:46 AM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'error'}}
+01/08/2023 12:52:46 AM serv.py[line:42]INFO - stop
+01/08/2023 12:58:45 AM rcomm.py[line:138]INFO - read: Y
+01/08/2023 12:58:45 AM rcomm.py[line:145]ERROR - failed to read dev: Y as [Errno 5] Input/output error
+01/08/2023 12:58:45 AM rcomm.py[line:114]ERROR - failed to open device: Y as [Errno 2] could not open port /dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0'
+01/08/2023 12:58:45 AM rcomm.py[line:114]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+01/08/2023 08:08:13 AM serv.py[line:50]INFO - serv heatbeat

@@ -29,21 +29,22 @@ class Serv( threading.Thread ):
         super(Serv, self).join(timeout)
     
     def run(self):
-        
         self.gui_sock.bind('tcp://0.0.0.0:%d' %(self.GUI_PORT))
-        self.term_sock.bind('tcp://0.0.0.0:%d' %(self.TERM_PORT))
-        self.pub_sock.bind('tcp://0.0.0.0:%d' %(self.PUB_PORT))
+        #self.term_sock.bind('tcp://0.0.0.0:%d' %(self.TERM_PORT))
+        #self.pub_sock.bind('tcp://0.0.0.0:%d' %(self.PUB_PORT))
         
         last_heatbeat = time.time()
         log_time_10min = time.time()
         while not self._stop_event.is_set():
             if self.gui_sock.poll(10):
+                self.trace.info('start')
                 self.process_gui_hook(self.gui_sock)
-            if self.term_sock.poll(5):
-                self.process_term_hook(self.term_sock)
-            if time.time() - last_heatbeat > 1:
-                self.process_heatbeat(self.pub_sock)
-                last_heatbeat = time.time()
+                self.trace.info('stop')
+            #if self.term_sock.poll(5):
+            #    self.process_term_hook(self.term_sock)
+            #if time.time() - last_heatbeat > 1:
+            #    self.process_heatbeat(self.pub_sock)
+            #    last_heatbeat = time.time()
             if time.time()-log_time_10min > 600:
                 log_time_10min = time.time()
                 self.trace.info('serv heatbeat')

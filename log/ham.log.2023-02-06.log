@@ -1,0 +1,207 @@
+02/06/2023 11:04:36 AM daemon.py[line:45]INFO - hello
+02/06/2023 11:04:36 AM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+02/06/2023 11:04:36 AM rcomm.py[line:71]INFO - ruijunfeng-PC
+02/06/2023 11:04:36 AM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+02/06/2023 11:04:36 AM rcomm.py[line:110]DEBUG - dev: Y opened
+02/06/2023 11:04:36 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:04:36 AM daemon.py[line:877]INFO - b'lg\x06R'
+02/06/2023 11:04:36 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:04:37 AM daemon.py[line:886]ERROR - no ack
+02/06/2023 11:04:37 AM daemon.py[line:877]INFO - b'lg\x06R'
+02/06/2023 11:04:37 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:04:37 AM daemon.py[line:886]ERROR - no ack
+02/06/2023 11:04:38 AM daemon.py[line:877]INFO - b'lg\x06R'
+02/06/2023 11:04:38 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:04:38 AM daemon.py[line:886]ERROR - no ack
+02/06/2023 11:04:38 AM daemon.py[line:79]INFO - hello beans_control
+02/06/2023 11:04:56 AM serv.py[line:40]INFO - start
+02/06/2023 11:04:56 AM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'command': 'lighting_on', 'device': 'm3', 'retry': '10'}}
+02/06/2023 11:04:56 AM daemon.py[line:1420]INFO - b'OM\x9b\x84'
+02/06/2023 11:04:56 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:04:56 AM rcomm.py[line:138]INFO - read: Y
+02/06/2023 11:04:56 AM rcomm.py[line:142]INFO - data -> b'OEok\xf6\x8a'
+02/06/2023 11:04:56 AM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+02/06/2023 11:04:56 AM serv.py[line:42]INFO - stop
+02/06/2023 11:05:23 AM serv.py[line:40]INFO - start
+02/06/2023 11:05:23 AM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'command': 'lighting_off', 'device': 'm3', 'retry': '10'}}
+02/06/2023 11:05:23 AM daemon.py[line:1437]INFO - b'Om\xf9\xa0'
+02/06/2023 11:05:23 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:05:23 AM rcomm.py[line:138]INFO - read: Y
+02/06/2023 11:05:23 AM rcomm.py[line:142]INFO - data -> b'Oeok0\x0c'
+02/06/2023 11:05:23 AM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+02/06/2023 11:05:23 AM serv.py[line:42]INFO - stop
+02/06/2023 11:05:31 AM serv.py[line:40]INFO - start
+02/06/2023 11:05:31 AM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'command': 'lighting_on', 'device': 'm3', 'retry': '10'}}
+02/06/2023 11:05:31 AM daemon.py[line:1420]INFO - b'OM\x9b\x84'
+02/06/2023 11:05:31 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:05:31 AM rcomm.py[line:138]INFO - read: Y
+02/06/2023 11:05:31 AM rcomm.py[line:142]INFO - data -> b'OEok\xf6\x8a'
+02/06/2023 11:05:31 AM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+02/06/2023 11:05:31 AM serv.py[line:42]INFO - stop
+02/06/2023 11:05:54 AM serv.py[line:40]INFO - start
+02/06/2023 11:05:54 AM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'command': 'lighting_on', 'device': 'm3', 'retry': '10'}}
+02/06/2023 11:05:54 AM daemon.py[line:1420]INFO - b'OM\x9b\x84'
+02/06/2023 11:05:54 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:05:54 AM rcomm.py[line:138]INFO - read: Y
+02/06/2023 11:05:54 AM rcomm.py[line:142]INFO - data -> b'OEok\xf6\x8a'
+02/06/2023 11:05:54 AM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+02/06/2023 11:05:54 AM serv.py[line:42]INFO - stop
+02/06/2023 11:14:36 AM serv.py[line:50]INFO - serv heatbeat
+02/06/2023 11:15:30 AM serv.py[line:40]INFO - start
+02/06/2023 11:15:30 AM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'command': 'push_cup', 'device': 'm3', 'retry': '10'}}
+02/06/2023 11:15:30 AM daemon.py[line:1753]INFO - b'OH>\xd4'
+02/06/2023 11:15:30 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:15:30 AM rcomm.py[line:138]INFO - read: Y
+02/06/2023 11:15:30 AM rcomm.py[line:142]INFO - data -> b'Ohi\x90N'
+02/06/2023 11:15:30 AM daemon.py[line:1534]INFO - b'Ob\n\x14\x1e\x14\x01\x05\x00\x99\xf8'
+02/06/2023 11:15:30 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:15:30 AM rcomm.py[line:138]INFO - read: Y
+02/06/2023 11:15:30 AM rcomm.py[line:142]INFO - data -> b'Ob\x16Q'
+02/06/2023 11:15:30 AM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+02/06/2023 11:15:30 AM serv.py[line:42]INFO - stop
+02/06/2023 11:24:36 AM serv.py[line:50]INFO - serv heatbeat
+02/06/2023 11:34:36 AM serv.py[line:50]INFO - serv heatbeat
+02/06/2023 11:39:16 AM serv.py[line:40]INFO - start
+02/06/2023 11:39:16 AM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'command': 'lighting_on', 'device': 'm3', 'retry': '10'}}
+02/06/2023 11:39:16 AM daemon.py[line:1420]INFO - b'OM\x9b\x84'
+02/06/2023 11:39:16 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:39:16 AM rcomm.py[line:138]INFO - read: Y
+02/06/2023 11:39:16 AM rcomm.py[line:142]INFO - data -> b'OEok\xf6\x8a'
+02/06/2023 11:39:16 AM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+02/06/2023 11:39:16 AM serv.py[line:42]INFO - stop
+02/06/2023 11:39:36 AM serv.py[line:40]INFO - start
+02/06/2023 11:39:36 AM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'command': 'push_cup', 'device': 'm3', 'retry': '10'}}
+02/06/2023 11:39:36 AM daemon.py[line:1753]INFO - b'OH>\xd4'
+02/06/2023 11:39:36 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:39:36 AM rcomm.py[line:138]INFO - read: Y
+02/06/2023 11:39:36 AM rcomm.py[line:142]INFO - data -> b'Ohi\x90N'
+02/06/2023 11:39:36 AM daemon.py[line:1534]INFO - b'Ob\n\x14\x1e\x14\x01\x05\x00\x99\xf8'
+02/06/2023 11:39:36 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:39:36 AM rcomm.py[line:138]INFO - read: Y
+02/06/2023 11:39:36 AM rcomm.py[line:142]INFO - data -> b'Ob\x16Q'
+02/06/2023 11:39:36 AM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+02/06/2023 11:39:36 AM serv.py[line:42]INFO - stop
+02/06/2023 11:39:39 AM serv.py[line:40]INFO - start
+02/06/2023 11:39:39 AM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'command': 'lighting_off', 'device': 'm3', 'retry': '10'}}
+02/06/2023 11:39:39 AM daemon.py[line:1437]INFO - b'Om\xf9\xa0'
+02/06/2023 11:39:39 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:39:39 AM rcomm.py[line:138]INFO - read: Y
+02/06/2023 11:39:39 AM rcomm.py[line:142]INFO - data -> b'Oeok0\x0c'
+02/06/2023 11:39:39 AM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+02/06/2023 11:39:39 AM serv.py[line:42]INFO - stop
+02/06/2023 11:40:15 AM serv.py[line:40]INFO - start
+02/06/2023 11:40:15 AM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'command': 'lighting_on', 'device': 'm3', 'retry': '10'}}
+02/06/2023 11:40:15 AM daemon.py[line:1420]INFO - b'OM\x9b\x84'
+02/06/2023 11:40:15 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:40:15 AM rcomm.py[line:138]INFO - read: Y
+02/06/2023 11:40:15 AM rcomm.py[line:142]INFO - data -> b'OEok\xf6\x8a'
+02/06/2023 11:40:15 AM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+02/06/2023 11:40:15 AM serv.py[line:42]INFO - stop
+02/06/2023 11:44:36 AM serv.py[line:50]INFO - serv heatbeat
+02/06/2023 11:49:26 AM rcomm.py[line:138]INFO - read: Y
+02/06/2023 11:49:26 AM rcomm.py[line:142]INFO - data -> b'\xff\x0f\x00\x00\x02\x84\x01\x00\x00\x00\xfe'
+02/06/2023 11:49:42 AM serv.py[line:40]INFO - start
+02/06/2023 11:49:42 AM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'command': 'lighting_on', 'device': 'm3', 'retry': '10'}}
+02/06/2023 11:49:42 AM daemon.py[line:1420]INFO - b'OM\x9b\x84'
+02/06/2023 11:49:42 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:49:42 AM rcomm.py[line:138]INFO - read: Y
+02/06/2023 11:49:42 AM rcomm.py[line:142]INFO - data -> b'OEok\xf6\x8a'
+02/06/2023 11:49:42 AM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+02/06/2023 11:49:42 AM serv.py[line:42]INFO - stop
+02/06/2023 11:49:48 AM serv.py[line:40]INFO - start
+02/06/2023 11:49:48 AM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'command': 'lighting_off', 'device': 'm3', 'retry': '10'}}
+02/06/2023 11:49:48 AM daemon.py[line:1437]INFO - b'Om\xf9\xa0'
+02/06/2023 11:49:48 AM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 11:49:48 AM rcomm.py[line:138]INFO - read: Y
+02/06/2023 11:49:48 AM rcomm.py[line:142]INFO - data -> b'Oeok0\x0c'
+02/06/2023 11:49:48 AM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+02/06/2023 11:49:48 AM serv.py[line:42]INFO - stop
+02/06/2023 11:54:36 AM serv.py[line:50]INFO - serv heatbeat
+02/06/2023 12:04:36 PM serv.py[line:50]INFO - serv heatbeat
+02/06/2023 12:10:55 PM serv.py[line:40]INFO - start
+02/06/2023 12:10:55 PM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'command': 'open_door', 'device': 'm3', 'retry': '10'}}
+02/06/2023 12:10:55 PM daemon.py[line:1267]INFO - b'OE\x93\x05'
+02/06/2023 12:10:55 PM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 12:10:55 PM rcomm.py[line:138]INFO - read: Y
+02/06/2023 12:10:55 PM rcomm.py[line:142]INFO - data -> b'OE\x93\x05'
+02/06/2023 12:10:55 PM daemon.py[line:1273]DEBUG - r -> b'OE\x93\x05'
+02/06/2023 12:10:56 PM daemon.py[line:1288]INFO - b'Oe\xf1!'
+02/06/2023 12:10:56 PM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 12:10:56 PM rcomm.py[line:138]INFO - read: Y
+02/06/2023 12:10:56 PM rcomm.py[line:142]INFO - data -> b'Oe\xf1!'
+02/06/2023 12:10:56 PM daemon.py[line:1294]DEBUG - r -> b'Oe\xf1!'
+02/06/2023 12:10:56 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+02/06/2023 12:10:56 PM serv.py[line:42]INFO - stop
+02/06/2023 12:11:11 PM serv.py[line:40]INFO - start
+02/06/2023 12:11:11 PM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'command': 'open_door', 'device': 'm3', 'retry': '10'}}
+02/06/2023 12:11:11 PM daemon.py[line:1267]INFO - b'OE\x93\x05'
+02/06/2023 12:11:11 PM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 12:11:11 PM rcomm.py[line:138]INFO - read: Y
+02/06/2023 12:11:11 PM rcomm.py[line:142]INFO - data -> b'OE\x93\x05'
+02/06/2023 12:11:11 PM daemon.py[line:1273]DEBUG - r -> b'OE\x93\x05'
+02/06/2023 12:11:13 PM daemon.py[line:1288]INFO - b'Oe\xf1!'
+02/06/2023 12:11:13 PM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 12:11:13 PM rcomm.py[line:138]INFO - read: Y
+02/06/2023 12:11:13 PM rcomm.py[line:142]INFO - data -> b'Oe\xf1!'
+02/06/2023 12:11:13 PM daemon.py[line:1294]DEBUG - r -> b'Oe\xf1!'
+02/06/2023 12:11:13 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+02/06/2023 12:11:13 PM serv.py[line:42]INFO - stop
+02/06/2023 12:11:34 PM serv.py[line:40]INFO - start
+02/06/2023 12:11:34 PM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'command': 'open_door', 'device': 'm3', 'retry': '10'}}
+02/06/2023 12:11:34 PM daemon.py[line:1267]INFO - b'OE\x93\x05'
+02/06/2023 12:11:34 PM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 12:11:34 PM rcomm.py[line:138]INFO - read: Y
+02/06/2023 12:11:34 PM rcomm.py[line:142]INFO - data -> b'OE\x93\x05'
+02/06/2023 12:11:34 PM daemon.py[line:1273]DEBUG - r -> b'OE\x93\x05'
+02/06/2023 12:11:35 PM daemon.py[line:1288]INFO - b'Oe\xf1!'
+02/06/2023 12:11:35 PM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 12:11:35 PM rcomm.py[line:138]INFO - read: Y
+02/06/2023 12:11:35 PM rcomm.py[line:142]INFO - data -> b'Oe\xf1!'
+02/06/2023 12:11:35 PM daemon.py[line:1294]DEBUG - r -> b'Oe\xf1!'
+02/06/2023 12:11:35 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+02/06/2023 12:11:35 PM serv.py[line:42]INFO - stop
+02/06/2023 12:11:37 PM serv.py[line:40]INFO - start
+02/06/2023 12:11:37 PM daemon.py[line:95]INFO - gui msg: {'req': {'delay': '1', 'command': 'open_door', 'device': 'm3', 'retry': '10'}}
+02/06/2023 12:11:37 PM daemon.py[line:1267]INFO - b'OE\x93\x05'
+02/06/2023 12:11:37 PM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 12:11:37 PM rcomm.py[line:138]INFO - read: Y
+02/06/2023 12:11:37 PM rcomm.py[line:142]INFO - data -> b'OE\x93\x05'
+02/06/2023 12:11:37 PM daemon.py[line:1273]DEBUG - r -> b'OE\x93\x05'
+02/06/2023 12:11:39 PM daemon.py[line:1288]INFO - b'Oe\xf1!'
+02/06/2023 12:11:39 PM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 12:11:39 PM rcomm.py[line:138]INFO - read: Y
+02/06/2023 12:11:39 PM rcomm.py[line:142]INFO - data -> b'Oe\xf1!'
+02/06/2023 12:11:39 PM daemon.py[line:1294]DEBUG - r -> b'Oe\xf1!'
+02/06/2023 12:11:39 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'result': 'success', 'device': 'm3'}}
+02/06/2023 12:11:39 PM serv.py[line:42]INFO - stop
+02/06/2023 12:12:24 PM daemon.py[line:45]INFO - hello
+02/06/2023 12:12:24 PM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+02/06/2023 12:12:24 PM rcomm.py[line:71]INFO - ruijunfeng-PC
+02/06/2023 12:12:24 PM rcomm.py[line:50]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B1WFE-if00-port0
+02/06/2023 12:12:24 PM rcomm.py[line:110]DEBUG - dev: Y opened
+02/06/2023 12:12:24 PM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 12:12:25 PM daemon.py[line:877]INFO - b'lg\x06R'
+02/06/2023 12:12:25 PM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 12:12:25 PM daemon.py[line:886]ERROR - no ack
+02/06/2023 12:12:25 PM daemon.py[line:877]INFO - b'lg\x06R'
+02/06/2023 12:12:25 PM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 12:12:26 PM daemon.py[line:886]ERROR - no ack
+02/06/2023 12:12:26 PM daemon.py[line:877]INFO - b'lg\x06R'
+02/06/2023 12:12:26 PM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 12:12:27 PM daemon.py[line:886]ERROR - no ack
+02/06/2023 12:12:27 PM daemon.py[line:79]INFO - hello beans_control
+02/06/2023 12:12:29 PM serv.py[line:40]INFO - start
+02/06/2023 12:12:29 PM daemon.py[line:95]INFO - gui msg: {'req': {'device': 'm3', 'delay': '1', 'command': 'open_door', 'retry': '10'}}
+02/06/2023 12:12:29 PM daemon.py[line:1267]INFO - b'OE\x93\x05'
+02/06/2023 12:12:29 PM rcomm.py[line:192]DEBUG - flush Y
+02/06/2023 12:12:29 PM rcomm.py[line:138]INFO - read: Y
+02/06/2023 12:12:29 PM rcomm.py[line:142]INFO - data -> b'OE\x93\x05'
+02/06/2023 12:12:29 PM daemon.py[line:1273]DEBUG - r -> b'OE\x93\x05'
+02/06/2023 12:12:29 PM daemon.py[line:113]DEBUG - send_json -> {'rep': {'device': 'm3', 'result': 'success'}}
+02/06/2023 12:12:29 PM serv.py[line:42]INFO - stop
+02/06/2023 12:22:24 PM serv.py[line:50]INFO - serv heatbeat
+02/06/2023 12:32:24 PM serv.py[line:50]INFO - serv heatbeat
+02/06/2023 12:42:24 PM serv.py[line:50]INFO - serv heatbeat
+02/06/2023 12:52:24 PM serv.py[line:50]INFO - serv heatbeat
+02/06/2023 01:02:24 PM serv.py[line:50]INFO - serv heatbeat
+02/06/2023 01:12:24 PM serv.py[line:50]INFO - serv heatbeat

@@ -39,9 +39,8 @@ class DictObj( object ):
         for i in p_dict:
             setattr(self, i, p_dict[i])
 
-def _Y_search_device(trace):
-    y_usb_state=1
-    while y_usb_state:
+def _search_device(trace):
+    while 1:
         try:
             rev = os.listdir('/dev/serial/by-id/')
             for d in rev:
@@ -63,7 +62,7 @@ class Rcomm( threading.Thread ):
         curDir = os.path.abspath(os.path.dirname(__file__))
         self.jsonPath = os.path.join(curDir,  "d2.json")
         
-        assert len(conf.DEV_LIST) == 2
+        assert len(conf.DEV_LIST) == 1
         self.rlink_usb_cnt=0
         self.fkc_usb_cnt=0
         self.spring_select_mode_flag=0
@@ -71,11 +70,11 @@ class Rcomm( threading.Thread ):
         pcname=platform.node()
         self.trace.info('%s'%pcname)
         if pcname.find('rui') is 0:
-            self.trace.info('hello m3')
-            _Y_search_device(self.trace )
-            self.xmodem_crc_func = crcmod.mkCrcFun(0x11021, rev=False,
-                                                    initCrc=0xffff, xorOut=0x0000)
-            #pass
+            #self.trace.info('hello m3')
+            #_Y_search_device(self.trace )
+            #self.xmodem_crc_func = crcmod.mkCrcFun(0x11021, rev=False,
+            #                                        initCrc=0xffff, xorOut=0x0000)
+            pass
         elif pcname.find('rui') is 0:
             #self.trace.info('hello m3')
             #self.trace.info('hello test Y')
@@ -83,7 +82,7 @@ class Rcomm( threading.Thread ):
             #self.xmodem_crc_func = crcmod.mkCrcFun(0x11021, rev=False,
             #                                        initCrc=0xffff, xorOut=0x0000)
             pass
-            
+        _search_device(self.trace)
         dev_dict = {}
         for d in conf.DEV_LIST:
             dev_dict[d['name']] = DictObj(d)
@@ -95,6 +94,15 @@ class Rcomm( threading.Thread ):
         self._stop_event.set()
         super(Rcomm, self).join(timeout)
         
+    def close_dev(self):   
+        self.dev_comb.dev_list = []
+        for d in conf.DEV_LIST:
+            dev = getattr(self.dev_comb, d['name'])
+            if hasattr(dev, 'ser'):
+                try:
+                    dev.ser.close()
+                except:
+                    pass 
     def open_dev(self):
         self.dev_comb.dev_list = []
         for d in conf.DEV_LIST:
@@ -142,47 +150,12 @@ class Rcomm( threading.Thread ):
                 data = d.ser.read(d.ser.in_waiting)
                 self.trace.info('data -> %s' %data)
                 d.q.put(data)
-                if d.name=='DROP':
-                    self.trace.info('hello')
-                    if data == b'\xff\x0c\xb0\x07\x00\x00\x08\xa0\xffF\xaf\xfe':
-                        self.trace.info('data -> %s' %data)
-                        self.process_drop_json(1,'w','OPEN')
-                    elif len(data)>=2:
-                        self.process_drop_json(1,'w','BLOCK')
-                    else:
-                        pass
-                elif d.name=='DROP1':
-                    if data == b'\xff\x0c\xb0\x07\x00\x00\x08\xa0\xffF\xaf\xfe':
-                        self.process_drop_json(2,'w','OPEN')
-                    elif len(data)>=2:
-                        self.process_drop_json(2,'w','BLOCK')
-                    else:
-                        pass
-                elif d.name=='DROP2':
-                    if data == b'\xff\x0c\xb0\x07\x00\x00\x08\xa0\xffF\xaf\xfe':
-                        self.process_drop_json(3,'w','OPEN')
-                    elif len(data)>=2:
-                        self.process_drop_json(3,'w','BLOCK')
-                    else:
-                        pass
-                else:
-                    pass
             except Exception as ex:
                 self.trace.error('failed to read dev: %s as %s' %(d.name, ex))
                 try:
                     self.open_dev()
                 except:
                     self.trace("failed to open dev")
-                    try:
-                        self.open_dev()
-                        self.trace("open dev success")
-                    except:
-                        self.trace("failed to open dev")
-                        try:
-                            self.open_dev()
-                            self.trace("open dev success")
-                        except:
-                            self.trace("failed to open dev")
     
     def run(self):
         for name in self.dev_comb.dev_list:

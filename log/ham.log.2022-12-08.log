@@ -1,0 +1,5 @@
+12/08/2022 05:59:19 PM serv.py[line:50]INFO - serv heatbeat
+12/08/2022 05:59:20 PM rcomm.py[line:139]INFO - read: Y
+12/08/2022 05:59:20 PM rcomm.py[line:146]ERROR - failed to read dev: Y as [Errno 5] Input/output error
+12/08/2022 05:59:20 PM rcomm.py[line:115]ERROR - failed to open device: Y as [Errno 2] could not open port /dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B37JZ-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B37JZ-if00-port0'
+12/08/2022 05:59:20 PM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'

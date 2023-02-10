@@ -1,0 +1,295 @@
+12/05/2022 06:55:19 PM daemon.py[line:45]INFO - hello
+12/05/2022 06:55:19 PM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+12/05/2022 06:55:19 PM rcomm.py[line:72]INFO - ruijunfeng-PC
+12/05/2022 06:55:19 PM rcomm.py[line:74]INFO - hello m3
+12/05/2022 06:55:19 PM rcomm.py[line:51]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B37JZ-if00-port0
+12/05/2022 06:55:19 PM rcomm.py[line:111]DEBUG - dev: Y opened
+12/05/2022 06:55:19 PM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+12/05/2022 06:55:19 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:55:19 PM daemon.py[line:857]INFO - b'lg\x06R'
+12/05/2022 06:55:19 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:55:19 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 06:55:19 PM rcomm.py[line:143]INFO - data -> b'lgok\xc2\xce'
+12/05/2022 06:55:19 PM daemon.py[line:862]DEBUG - r -> b'lgok\xc2\xce'
+12/05/2022 06:55:19 PM daemon.py[line:78]INFO - hello beans_control
+12/05/2022 06:55:50 PM serv.py[line:40]INFO - start
+12/05/2022 06:55:50 PM daemon.py[line:94]INFO - gui msg: {'req': {'device': 'm3', 'range': [1, 5], 'command': 'lattice_rgb_set', 'rgb': [100, 250, 190]}}
+12/05/2022 06:55:50 PM daemon.py[line:1707]INFO - b'lcd\xfa\xbe\x04\xc3i'
+12/05/2022 06:55:50 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:55:51 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:55:51 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:55:52 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:55:52 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:55:53 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:55:53 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 06:55:53 PM serv.py[line:42]INFO - stop
+12/05/2022 06:56:15 PM serv.py[line:40]INFO - start
+12/05/2022 06:56:15 PM daemon.py[line:94]INFO - gui msg: {'req': {'device': 'm3', 'range': [1, 5], 'command': 'lattice_rgb_set', 'rgb': [0, 0, 0]}}
+12/05/2022 06:56:15 PM daemon.py[line:1707]INFO - b'lc\x00\x00\x00\x04q\xe3'
+12/05/2022 06:56:15 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:56:16 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:56:16 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:56:17 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:56:17 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:56:18 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:56:18 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 06:56:18 PM serv.py[line:42]INFO - stop
+12/05/2022 06:57:30 PM serv.py[line:40]INFO - start
+12/05/2022 06:57:30 PM daemon.py[line:94]INFO - gui msg: {'req': {'device': 'm3', 'range': [1, 5], 'command': 'lattice_rgb_set', 'rgb': [0, 0, 0]}}
+12/05/2022 06:57:30 PM daemon.py[line:1707]INFO - b'lc\x00\x00\x00\x04q\xe3'
+12/05/2022 06:57:30 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:57:31 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:57:31 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:57:32 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:57:32 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:57:33 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:57:33 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 06:57:33 PM serv.py[line:42]INFO - stop
+12/05/2022 06:58:50 PM serv.py[line:40]INFO - start
+12/05/2022 06:58:50 PM daemon.py[line:94]INFO - gui msg: {'req': {'device': 'm3', 'range': [1, 5], 'command': 'lattice_rgb_set', 'rgb': [0, 0, 0]}}
+12/05/2022 06:58:50 PM daemon.py[line:1707]INFO - b'lc\x00\x00\x00\x04q\xe3'
+12/05/2022 06:58:50 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:58:51 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:58:51 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:58:52 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:58:52 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:58:53 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:58:53 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 06:58:53 PM serv.py[line:42]INFO - stop
+12/05/2022 06:58:54 PM serv.py[line:40]INFO - start
+12/05/2022 06:58:54 PM daemon.py[line:94]INFO - gui msg: {'req': {'device': 'm3', 'range': [1, 5], 'command': 'lattice_rgb_set', 'rgb': [0, 0, 0]}}
+12/05/2022 06:58:54 PM daemon.py[line:1707]INFO - b'lc\x00\x00\x00\x04q\xe3'
+12/05/2022 06:58:54 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:58:55 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:58:55 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:58:56 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:58:56 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:58:57 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:58:57 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 06:58:57 PM serv.py[line:42]INFO - stop
+12/05/2022 06:59:09 PM serv.py[line:40]INFO - start
+12/05/2022 06:59:09 PM daemon.py[line:94]INFO - gui msg: {'req': {'device': 'm3', 'range': [1, 5], 'command': 'lattice_rgb_set', 'rgb': [0, 0, 0]}}
+12/05/2022 06:59:09 PM daemon.py[line:1707]INFO - b'lc\x00\x00\x00\x04q\xe3'
+12/05/2022 06:59:09 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:59:11 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:59:11 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:59:12 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:59:12 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:59:13 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:59:13 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 06:59:13 PM serv.py[line:42]INFO - stop
+12/05/2022 06:59:37 PM serv.py[line:40]INFO - start
+12/05/2022 06:59:37 PM daemon.py[line:94]INFO - gui msg: {'req': {'device': 'm3', 'range': [1, 5], 'command': 'lattice_rgb_set', 'rgb': [0, 0, 0]}}
+12/05/2022 06:59:37 PM daemon.py[line:1707]INFO - b'lc\x00\x00\x00\x04q\xe3'
+12/05/2022 06:59:37 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:59:38 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:59:38 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:59:39 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:59:39 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 06:59:40 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 06:59:40 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 06:59:40 PM serv.py[line:42]INFO - stop
+12/05/2022 07:01:44 PM daemon.py[line:45]INFO - hello
+12/05/2022 07:01:44 PM daemon.py[line:46]INFO - /home/ruijunfeng/works/fusion/m3ham/log/ham.log
+12/05/2022 07:01:44 PM rcomm.py[line:72]INFO - ruijunfeng-PC
+12/05/2022 07:01:44 PM rcomm.py[line:74]INFO - hello m3
+12/05/2022 07:01:44 PM rcomm.py[line:51]INFO - found FTDI device:/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DK0B37JZ-if00-port0
+12/05/2022 07:01:44 PM rcomm.py[line:111]DEBUG - dev: Y opened
+12/05/2022 07:01:44 PM rcomm.py[line:115]ERROR - failed to open device: AC as [Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0'
+12/05/2022 07:01:44 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:01:44 PM daemon.py[line:857]INFO - b'lg\x06R'
+12/05/2022 07:01:44 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:01:44 PM daemon.py[line:866]ERROR - no ack
+12/05/2022 07:01:44 PM daemon.py[line:857]INFO - b'lg\x06R'
+12/05/2022 07:01:44 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:01:45 PM daemon.py[line:866]ERROR - no ack
+12/05/2022 07:01:45 PM daemon.py[line:857]INFO - b'lg\x06R'
+12/05/2022 07:01:45 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:01:46 PM daemon.py[line:866]ERROR - no ack
+12/05/2022 07:01:46 PM daemon.py[line:78]INFO - hello beans_control
+12/05/2022 07:01:57 PM serv.py[line:40]INFO - start
+12/05/2022 07:01:57 PM daemon.py[line:94]INFO - gui msg: {'req': {'rgb': [0, 0, 0], 'range': [1, 5], 'command': 'lattice_rgb_set', 'device': 'm3'}}
+12/05/2022 07:01:57 PM daemon.py[line:1707]INFO - b'lc\x00\x00\x00\x01\x05\x1d\x13'
+12/05/2022 07:01:57 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:01:58 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:01:58 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:01:59 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:01:59 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:02:00 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:02:00 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 07:02:00 PM serv.py[line:42]INFO - stop
+12/05/2022 07:02:01 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:02:01 PM rcomm.py[line:143]INFO - data -> b'lc\x82\x12'
+12/05/2022 07:02:25 PM serv.py[line:40]INFO - start
+12/05/2022 07:02:25 PM daemon.py[line:94]INFO - gui msg: {'req': {'rgb': [0, 0, 0], 'range': [4, 8], 'command': 'lattice_rgb_set', 'device': 'm3'}}
+12/05/2022 07:02:25 PM daemon.py[line:1707]INFO - b'lc\x00\x00\x00\x04\x08E='
+12/05/2022 07:02:25 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:02:26 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:02:26 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:02:27 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:02:27 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:02:28 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:02:28 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 07:02:28 PM serv.py[line:42]INFO - stop
+12/05/2022 07:02:53 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:02:53 PM rcomm.py[line:143]INFO - data -> b'lc\x82\x12'
+12/05/2022 07:08:43 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:43 PM rcomm.py[line:143]INFO - data -> b'\xfe'
+12/05/2022 07:08:44 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:44 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:44 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:44 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:45 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:45 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:45 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:45 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:45 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:45 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:46 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:46 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:46 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:46 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:47 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:47 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:47 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:47 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:47 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:47 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:48 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:48 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:48 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:48 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:49 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:49 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:49 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:49 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:49 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:49 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:50 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:50 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:50 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:50 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:51 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:51 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:51 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:51 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:51 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:51 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:52 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:52 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:52 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:52 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:53 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:53 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:53 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:53 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:53 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:53 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:54 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:54 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:08:54 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:08:54 PM rcomm.py[line:143]INFO - data -> b'\x00'
+12/05/2022 07:10:28 PM serv.py[line:40]INFO - start
+12/05/2022 07:10:28 PM daemon.py[line:94]INFO - gui msg: {'req': {'rgb': [0, 0, 0], 'range': [4, 8], 'command': 'lattice_rgb_set', 'device': 'm3'}}
+12/05/2022 07:10:28 PM daemon.py[line:1707]INFO - b'lc\x00\x00\x00\x04\x08E='
+12/05/2022 07:10:28 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:10:29 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:10:29 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:10:30 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:10:30 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:10:31 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:10:31 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 07:10:31 PM serv.py[line:42]INFO - stop
+12/05/2022 07:10:45 PM serv.py[line:40]INFO - start
+12/05/2022 07:10:45 PM daemon.py[line:94]INFO - gui msg: {'req': {'rgb': [0, 0, 200], 'range': [5, 8], 'command': 'lattice_rgb_set', 'device': 'm3'}}
+12/05/2022 07:10:45 PM daemon.py[line:1707]INFO - b'lc\x00\x00\xc8\x05\x08"\x81'
+12/05/2022 07:10:45 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:10:46 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:10:46 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:10:47 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:10:47 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:10:48 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:10:48 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 07:10:48 PM serv.py[line:42]INFO - stop
+12/05/2022 07:11:26 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:11:26 PM rcomm.py[line:143]INFO - data -> b'lc\x82\x12'
+12/05/2022 07:11:30 PM serv.py[line:40]INFO - start
+12/05/2022 07:11:30 PM daemon.py[line:94]INFO - gui msg: {'req': {'rgb': [0, 0, 200], 'range': [5, 8], 'command': 'lattice_rgb_set', 'device': 'm3'}}
+12/05/2022 07:11:30 PM daemon.py[line:1707]INFO - b'lc\x00\x00\xc8\x05\x08"\x81'
+12/05/2022 07:11:30 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:11:31 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:11:31 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:11:32 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:11:32 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:11:33 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:11:33 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 07:11:33 PM serv.py[line:42]INFO - stop
+12/05/2022 07:11:44 PM serv.py[line:50]INFO - serv heatbeat
+12/05/2022 07:14:13 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:14:13 PM rcomm.py[line:143]INFO - data -> b'lc\x82\x12'
+12/05/2022 07:14:14 PM serv.py[line:40]INFO - start
+12/05/2022 07:14:14 PM daemon.py[line:94]INFO - gui msg: {'req': {'rgb': [0, 0, 200], 'range': [1, 46], 'command': 'lattice_rgb_set', 'device': 'm3'}}
+12/05/2022 07:14:14 PM daemon.py[line:1707]INFO - b'lc\x00\x00\xc8\x01.B\t'
+12/05/2022 07:14:14 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:14:15 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:14:15 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:14:16 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:14:16 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:14:17 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:14:17 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 07:14:17 PM serv.py[line:42]INFO - stop
+12/05/2022 07:14:33 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:14:33 PM rcomm.py[line:143]INFO - data -> b'lc\x82\x12'
+12/05/2022 07:14:35 PM serv.py[line:40]INFO - start
+12/05/2022 07:14:35 PM daemon.py[line:94]INFO - gui msg: {'req': {'rgb': [0, 200, 200], 'range': [1, 2], 'command': 'lattice_rgb_set', 'device': 'm3'}}
+12/05/2022 07:14:35 PM daemon.py[line:1707]INFO - b'lc\x00\xc8\xc8\x01\x02\xcb\xda'
+12/05/2022 07:14:35 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:14:36 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:14:36 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:14:37 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:14:37 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:14:38 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:14:38 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 07:14:38 PM serv.py[line:42]INFO - stop
+12/05/2022 07:15:12 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:15:12 PM rcomm.py[line:143]INFO - data -> b'lc\x82\x12'
+12/05/2022 07:15:54 PM serv.py[line:40]INFO - start
+12/05/2022 07:15:54 PM daemon.py[line:94]INFO - gui msg: {'req': {'rgb': [0, 200, 200], 'range': [1, 2], 'command': 'lattice_rgb_set', 'device': 'm3'}}
+12/05/2022 07:15:54 PM daemon.py[line:1707]INFO - b'lc\x00\xc8\xc8\x01\x02\xcb\xda'
+12/05/2022 07:15:54 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:15:55 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:15:55 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:15:56 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:15:56 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:15:57 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:15:57 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 07:15:57 PM serv.py[line:42]INFO - stop
+12/05/2022 07:16:50 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:16:50 PM rcomm.py[line:143]INFO - data -> b'lc\x82\x12'
+12/05/2022 07:16:55 PM serv.py[line:40]INFO - start
+12/05/2022 07:16:55 PM daemon.py[line:94]INFO - gui msg: {'req': {'rgb': [0, 200, 200], 'range': [1, 2], 'command': 'lattice_rgb_set', 'device': 'm3'}}
+12/05/2022 07:16:55 PM daemon.py[line:1707]INFO - b'lc\x00\xc8\xc8\x01\x02\xcb\xda'
+12/05/2022 07:16:55 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:16:56 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:16:56 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:16:57 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:16:57 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:16:58 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:16:58 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 07:16:58 PM serv.py[line:42]INFO - stop
+12/05/2022 07:17:56 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:17:56 PM rcomm.py[line:143]INFO - data -> b'lc\x82\x12'
+12/05/2022 07:18:34 PM serv.py[line:40]INFO - start
+12/05/2022 07:18:34 PM daemon.py[line:94]INFO - gui msg: {'req': {'rgb': [0, 200, 200], 'range': [1, 2], 'command': 'lattice_rgb_set', 'device': 'm3'}}
+12/05/2022 07:18:34 PM daemon.py[line:1707]INFO - b'lc\x00\xc8\xc8\x01\x02\xcb\xda'
+12/05/2022 07:18:34 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:18:35 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:18:35 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:18:36 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:18:36 PM rcomm.py[line:193]DEBUG - flush Y
+12/05/2022 07:18:37 PM daemon.py[line:1716]ERROR - no ack
+12/05/2022 07:18:37 PM daemon.py[line:112]DEBUG - send_json -> {'rep': {'result': 'error', 'device': 'm3'}}
+12/05/2022 07:18:37 PM serv.py[line:42]INFO - stop
+12/05/2022 07:18:44 PM rcomm.py[line:139]INFO - read: Y
+12/05/2022 07:18:44 PM rcomm.py[line:143]INFO - data -> b'lc\x82\x12'
+12/05/2022 07:21:44 PM serv.py[line:50]INFO - serv heatbeat
